@@ -3,6 +3,7 @@ import { RestaurantContext } from "../context/RestaurantContext";
 import { Bracket, Seed, SeedItem, SeedTeam } from "react-brackets";
 import { useNavigate } from "react-router-dom";
 import { BracketContext } from "../context/BracketContext";
+import styles from "../styles/Bracket.module.css";
 
 function BracketComponent() {
   const { restaurants } = useContext(RestaurantContext);
@@ -12,13 +13,6 @@ function BracketComponent() {
   const { resetTournament } = useContext(BracketContext);
 
   const navigate = useNavigate();
-
-  const styles = {
-    bracketContainer: {
-      backgroundColor: "grey",
-      width: "50%",
-    },
-  };
 
   useEffect(() => {
     if (
@@ -55,7 +49,7 @@ function BracketComponent() {
       }, []);
       const roundStructure = [
         {
-          title: "Round One",
+          title: "Round 1",
           seeds,
         },
       ];
@@ -87,22 +81,27 @@ function BracketComponent() {
             cursor: isPastRound ? "not-allowed" : "pointer", // Change cursor for past rounds
             opacity: isPastRound ? 0.6 : 1, // Dim past rounds
           }}
+          styles={styles.showdownContainer}
         >
           <div onClick={() => !isPastRound && startShowdown(seed)}>
             {/* Only allow click if it's not a past round */}
             <SeedTeam
+              className={`${styles.showdown} ${
+                isTeamOneSelected ? styles.selectedTeam : ""
+              }`}
               style={{
-                fontSize: 12,
-                backgroundColor: isTeamOneSelected ? "lightgreen" : "black",
+                backgroundColor: isTeamOneSelected ? "green" : "", // Inline className only for selected
               }}
             >
               {seed.teams[0]?.name}
             </SeedTeam>
-            <div style={{ height: 1, backgroundColor: "white" }} />
+            <div className={styles.showdownSeperator} />
             <SeedTeam
+              className={`${styles.showdown} ${
+                isTeamTwoSelected ? styles.selectedTeam : ""
+              }`}
               style={{
-                fontSize: 12,
-                backgroundColor: isTeamTwoSelected ? "lightgreen" : "black",
+                backgroundColor: isTeamTwoSelected ? "green" : "", // Inline className only for selected
               }}
             >
               {seed.teams[1]?.name}
@@ -115,26 +114,30 @@ function BracketComponent() {
 
   return (
     <div className="container">
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
-        <h1>Bracket</h1>
+      <div className={styles.topArea}>
         <button
           onClick={() => {
             navigate("/");
             resetTournament();
           }}
+          className="outline secondary"
         >
-          Go Back
+          Back
+        </button>
+        <h1>Bite Battle</h1>
+        <button
+          onClick={() => {
+            navigate("/");
+            resetTournament();
+          }}
+          style={{ visibility: "hidden" }}
+        >
+          Info
         </button>
       </div>
 
       {rounds.length > 0 ? (
-        <div>
+        <div className={styles.bracketDiv}>
           <Bracket
             roundClassName={styles.bracketContainer}
             rounds={rounds}

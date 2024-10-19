@@ -1,0 +1,75 @@
+.container {
+  height: "100vh";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+  align-items: "center";
+  gap: 24;
+  background: linear-gradient(
+    341deg,
+    #0d3b66,
+    #d2f1e4,
+    #2f97c1,
+    #c19ab7,
+    #dbb1bc
+  );
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 43s ease infinite;
+  -moz-animation: AnimationName 43s ease infinite;
+  -o-animation: AnimationName 43s ease infinite;
+  animation: AnimationName 43s ease infinite;
+}
+.container h1 {
+  font-size: 15vw;
+  color: white;
+}
+.emojiSection {
+  font-size: 8vw;
+  display: flex;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 88% 0%;
+  }
+  50% {
+    background-position: 13% 100%;
+  }
+  100% {
+    background-position: 88% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 88% 0%;
+  }
+  50% {
+    background-position: 13% 100%;
+  }
+  100% {
+    background-position: 88% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 88% 0%;
+  }
+  50% {
+    background-position: 13% 100%;
+  }
+  100% {
+    background-position: 88% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 88% 0%;
+  }
+  50% {
+    background-position: 13% 100%;
+  }
+  100% {
+    background-position: 88% 0%;
+  }
+}

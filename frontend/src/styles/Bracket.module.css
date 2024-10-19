@@ -1,0 +1,28 @@
+.topArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.bracketDiv {
+  background-color: var(--pico-card-background-color);
+  padding: 10px;
+  border-color: var(--pico-card-border-color);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 20px;
+}
+.showdown {
+  background-color: var(--pico-secondary-background);
+  border-color: var(--pico-secondary-border);
+  border-width: 1px;
+}
+.showdownSeperator {
+  background-color: var(--pico-contrast);
+  height: 1px;
+}
+.showdownContainer {
+  border-color: var(--pico-secondary-border);
+  border-width: 2px;
+  border-style: solid;
+}

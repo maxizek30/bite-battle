@@ -1,0 +1,83 @@
+{
+  "id": "Gvt07vmDx6EjcX-7GfMQPw",
+  "alias": "tibbitts-fern-hill-tacoma",
+  "name": "Tibbitts @ Fern Hill",
+  "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/M-S8mIRlOngKscO-qtb02A/o.jpg",
+  "is_closed": false,
+  "url": "https://www.yelp.com/biz/tibbitts-fern-hill-tacoma?adjust_creative=0FOzNFb_BrecDsS72i0mAA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=0FOzNFb_BrecDsS72i0mAA",
+  "review_count": 873,
+  "categories": [
+    {
+      "alias": "newamerican",
+      "title": "New American"
+    },
+    {
+      "alias": "breakfast_brunch",
+      "title": "Breakfast & Brunch"
+    }
+  ],
+  "rating": 4.7,
+  "coordinates": {
+    "latitude": 47.1814448412222,
+    "longitude": -122.441734
+  },
+  "transactions": ["delivery"],
+  "price": "$$",
+  "location": {
+    "address1": "8237 S Park Ave",
+    "address2": null,
+    "address3": null,
+    "city": "Tacoma",
+    "zip_code": "98408",
+    "country": "US",
+    "state": "WA",
+    "display_address": ["8237 S Park Ave", "Tacoma, WA 98408"]
+  },
+  "phone": "+12533271334",
+  "display_phone": "(253) 327-1334",
+  "distance": 965.2085235007302,
+  "business_hours": [
+    {
+      "open": [
+        {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1400",
+          "day": 2
+        },
+        {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1400",
+          "day": 3
+        },
+        {
+          "is_overnight": false,
+          "start": "1000",
+          "end": "1400",
+          "day": 4
+        },
+        {
+          "is_overnight": false,
+          "start": "0900",
+          "end": "1300",
+          "day": 5
+        },
+        {
+          "is_overnight": false,
+          "start": "0900",
+          "end": "1300",
+          "day": 6
+        }
+      ],
+      "hours_type": "REGULAR",
+      "is_open_now": false
+    }
+  ],
+  "attributes": {
+    "business_temp_closed": null,
+    "menu_url": "http://www.tibbittsfernhillreservation.com",
+    "open24_hours": null,
+    "waitlist_reservation": null
+  }
+}

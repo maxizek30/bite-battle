@@ -11,6 +11,7 @@ function BracketComponent() {
   const { selectedWinners } = useContext(BracketContext);
   const { currentRound } = useContext(BracketContext);
   const { resetTournament } = useContext(BracketContext);
+  const { winner, isModalOpen, closeModal } = useContext(BracketContext);
 
   const navigate = useNavigate();
 
@@ -33,6 +34,7 @@ function BracketComponent() {
                 distance: array[index].distance,
                 rating: array[index].rating,
                 price: array[index].price,
+                location: array[index].location,
               },
               {
                 name: array[index + 1].name,
@@ -41,6 +43,7 @@ function BracketComponent() {
                 distance: array[index + 1].distance,
                 rating: array[index + 1].rating,
                 price: array[index + 1].price,
+                location: array[index + 1].location,
               },
             ],
           });
@@ -149,6 +152,21 @@ function BracketComponent() {
       ) : (
         <p>No restaurants found or data still loading...</p>
       )}
+
+      <dialog id="winnerModal" open={isModalOpen}>
+        <article>
+          <header>
+            <h2>Winner!</h2>
+          </header>
+          <p>{winner ? `Winner: ${winner.name}` : "No winner selected"}</p>
+
+          <footer>
+            <button className="secondary" onClick={closeModal}>
+              Close
+            </button>
+          </footer>
+        </article>
+      </dialog>
     </div>
   );
 }

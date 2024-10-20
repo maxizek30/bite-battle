@@ -19,6 +19,9 @@ export const BracketProvider = ({ children }) => {
     loadStateFromStorage("currentRound", 0)
   );
 
+  const [winner, setWinner] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   // Save to localStorage whenever the state changes
   useEffect(() => {
     localStorage.setItem("selectedWinners", JSON.stringify(selectedWinners));
@@ -46,6 +49,7 @@ export const BracketProvider = ({ children }) => {
               distance: winners[index].distance,
               rating: winners[index].rating,
               price: winners[index].price,
+              location: winners[index].location,
             },
             {
               name: winners[index + 1].name,
@@ -54,6 +58,7 @@ export const BracketProvider = ({ children }) => {
               distance: winners[index + 1].distance,
               rating: winners[index + 1].rating,
               price: winners[index + 1].price,
+              location: winners[index + 1].location,
             },
           ],
         });
@@ -87,9 +92,15 @@ export const BracketProvider = ({ children }) => {
         setRounds((prevRounds) => [...prevRounds, nextRound]);
         setCurrentRound((prev) => prev + 1);
       } else {
-        alert(`Winner: ${currentRoundWinners[0].name}`);
+        setWinner(currentRoundWinners[0]);
+        console.log(winner);
+
+        setIsModalOpen(true);
       }
     }
+  };
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
   const resetTournament = () => {
     localStorage.removeItem("selectedWinners");
@@ -110,6 +121,9 @@ export const BracketProvider = ({ children }) => {
         setCurrentRound,
         selectedWinners,
         resetTournament,
+        winner,
+        isModalOpen,
+        closeModal,
       }}
     >
       {children}

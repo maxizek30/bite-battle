@@ -3,6 +3,7 @@ import { RestaurantContext } from "../context/RestaurantContext";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import styles from "../styles/LocationPage.module.css";
+import exampleData from "../../data/exampleData";
 
 function LocationPage() {
   // const [zipcode, setZipcode] = useState("");
@@ -36,11 +37,14 @@ function LocationPage() {
   const fetchRestaurants = async (latitude, longitude) => {
     setLoading(true);
     try {
-      const response = await axios.get(
-        `http://localhost:8000/api/restaurants?latitude=${latitude}&longitude=${longitude}`
-      );
-      console.log(response);
-      setRestaurants(response.data);
+      // Commented out for demo purposes
+      //
+      // const response = await axios.get(
+      //   `http://localhost:8000/api/restaurants?latitude=${latitude}&longitude=${longitude}`
+      // );
+      //setRestaurants(response.data);
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      setRestaurants(exampleData);
 
       navigate("/Bracket");
     } catch (error) {

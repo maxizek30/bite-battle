@@ -13,15 +13,15 @@ app.get("/api/restaurants", async (req, res) => {
   console.log("Fetching restaurants");
 
   try {
-    const response = await axios.get(
-      `https://api.yelp.com/v3/businesses/search?latitude=${latitude}&longitude=${longitude}&sort_by=best_match&limit=16&categories=restaurants`,
-      {
-        headers: {
-          Authorization: `Bearer ${process.env.YELP_API_KEY}`,
-        },
-      }
-    );
-    res.json(response.data);
+    // const response = await axios.get(
+    //   `https://api.yelp.com/v3/businesses/search?latitude=${latitude}&longitude=${longitude}&sort_by=best_match&limit=16&categories=restaurants`,
+    //   {
+    //     headers: {
+    //       Authorization: `Bearer ${process.env.YELP_API_KEY}`,
+    //     },
+    //   }
+    // );
+    // res.json(response.data);
     await new Promise((resolve) => setTimeout(resolve, 1000));
     res.json(exampleData);
   } catch (error) {

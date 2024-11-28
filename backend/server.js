@@ -45,15 +45,44 @@ app.use(express.json()); // To parse JSON request bodies
 //     res.status(500).send("Error fetching data from Google Places API");
 //   }
 // });
-app.post("/v1/places:searchNearby", (req, res) => {
+app.post("/v1/places:searchNearby", async (req, res) => {
+  const { latitude, longitude, radius, includedTypes } = req.body;
+
+  if (!latitude || !longitude || !radius || !includedTypes) {
+    return res.status(400).json({ error: "Missing required fields" });
+  }
+
+  const requestBody = {
+    includedTypes,
+    locationRestriction: {
+      circle: {
+        center: {
+          latitude,
+          longitude,
+        },
+        radius,
+      },
+    },
+  };
+
+  const url = `https://places.googleapis.com/v1/places:searchNearby?fields=places.displayName,places.rating,places.websiteUri,places.photos,places.priceLevel,places.priceRange,places.location,places.generativeSummary&key=${process.env.GOOGLE_PLACES_API_KEY}`;
+
   try {
-    const mockDataPath = path.join(__dirname, "exampleNewData.json");
-    const mockData = JSON.parse(fs.readFileSync(mockDataPath, "utf8"));
-    console.log("returning mock data");
-    res.json(mockData);
+    const response = await axios.post(url, requestBody, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    res.json(response.data);
   } catch (error) {
-    console.error("Error reading mock data", error);
-    res.status(500).send("Error reading mock data");
+    console.error(
+      "Error fetching data from Google Places API:",
+      error.response?.data || error.message
+    );
+    res
+      .status(500)
+      .json({ error: "Failed to fetch data from Google Places API" });
   }
 });
 app.get("/v1/places/photos", async (req, res) => {

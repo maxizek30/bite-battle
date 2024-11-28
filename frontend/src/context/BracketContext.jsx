@@ -41,26 +41,7 @@ export const BracketProvider = ({ children }) => {
         acc.push({
           id: index / 2 + 1,
           date: new Date().toDateString(),
-          teams: [
-            {
-              name: winners[index].name,
-              image_url: winners[index].image_url,
-              categories: winners[index].categories,
-              distance: winners[index].distance,
-              rating: winners[index].rating,
-              price: winners[index].price,
-              location: winners[index].location,
-            },
-            {
-              name: winners[index + 1].name,
-              image_url: winners[index + 1].image_url,
-              categories: winners[index + 1].categories,
-              distance: winners[index + 1].distance,
-              rating: winners[index + 1].rating,
-              price: winners[index + 1].price,
-              location: winners[index + 1].location,
-            },
-          ],
+          teams: [winners[index], winners[index + 1]],
         });
       }
       return acc;

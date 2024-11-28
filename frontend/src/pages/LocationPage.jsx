@@ -3,10 +3,8 @@ import { RestaurantContext } from "../context/RestaurantContext";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import styles from "../styles/LocationPage.module.css";
-import exampleData from "../../data/exampleData";
-
+import { preprocessRestaurantData } from "../models/Restaurant";
 function LocationPage() {
-  // const [zipcode, setZipcode] = useState("");
   const [loading, setLoading] = useState(false);
   const [location, setLocation] = useState(null);
   const { setRestaurants } = useContext(RestaurantContext);
@@ -20,6 +18,7 @@ function LocationPage() {
       console.log("Geolocation not supported");
     }
   };
+
   function success(position) {
     console.log("Got location");
     setLoading(true);
@@ -37,22 +36,30 @@ function LocationPage() {
   const fetchRestaurants = async (latitude, longitude) => {
     setLoading(true);
     try {
-      // Commented out for demo purposes
-      //
-      // const response = await axios.get(
-      //   `http://localhost:8000/api/restaurants?latitude=${latitude}&longitude=${longitude}`
-      // );
-      //setRestaurants(response.data);
+      const response = await axios.post(
+        `http://localhost:8000/v1/places:searchNearby`,
+        {
+          latitude,
+          longitude,
+          radius: 4000,
+          includedTypes: ["restaurant"],
+        }
+      );
+      const processedData = preprocessRestaurantData(
+        response.data.places.slice(0, 16)
+      );
+      setRestaurants(processedData);
       await new Promise((resolve) => setTimeout(resolve, 1000));
-      setRestaurants(exampleData);
+      console.log(processedData);
 
       navigate("/Bracket");
     } catch (error) {
-      console.error("Error fetching Yelp data:", error);
+      console.error("Error fetching data:", error);
     } finally {
       setLoading(false);
     }
   };
+
   return (
     <div
       style={{

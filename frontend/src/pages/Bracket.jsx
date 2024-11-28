@@ -26,26 +26,7 @@ function BracketComponent() {
           acc.push({
             id: index / 2 + 1,
             date: new Date().toDateString(),
-            teams: [
-              {
-                name: array[index].name,
-                image_url: array[index].image_url,
-                categories: array[index].categories,
-                distance: array[index].distance,
-                rating: array[index].rating,
-                price: array[index].price,
-                location: array[index].location,
-              },
-              {
-                name: array[index + 1].name,
-                image_url: array[index + 1].image_url,
-                categories: array[index + 1].categories,
-                distance: array[index + 1].distance,
-                rating: array[index + 1].rating,
-                price: array[index + 1].price,
-                location: array[index + 1].location,
-              },
-            ],
+            teams: [array[index], array[index + 1]],
           });
         }
         return acc;

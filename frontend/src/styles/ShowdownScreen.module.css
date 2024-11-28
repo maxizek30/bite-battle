@@ -13,7 +13,6 @@
   border-color: var(--pico-card-border-color);
   border-width: 5px;
   border-style: solid;
-  justify-content: space-around;
   flex: 1;
   border-radius: 10px;
   height: 96%;
@@ -40,7 +39,26 @@
   width: 100%;
   display: flex;
   align-items: center;
+  height: 30%;
+
   justify-content: center;
   flex-direction: column;
   padding: 20px;
+}
+.bottomSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carouselContainer {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.carouselImage {
+  max-height: 100%;
+  max-width: 70%;
 }

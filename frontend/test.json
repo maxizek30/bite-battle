@@ -1,0 +1,4125 @@
+{
+  "places": [
+    {
+      "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU",
+      "id": "ChIJxZRV3NoBkVQRVqjuShopjvU",
+      "types": [
+        "chinese_restaurant",
+        "meal_takeaway",
+        "bar",
+        "meal_delivery",
+        "food_delivery",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "nationalPhoneNumber": "(253) 531-2533",
+      "internationalPhoneNumber": "+1 253-531-2533",
+      "formattedAddress": "8843 Pacific Ave, Tacoma, WA 98444, USA",
+      "addressComponents": [
+        {
+          "longText": "8843",
+          "shortText": "8843",
+          "types": ["street_number"],
+          "languageCode": "en-US"
+        },
+        {
+          "longText": "Pacific Avenue",
+          "shortText": "Pacific Ave",
+          "types": ["route"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "South End",
+          "shortText": "South End",
+          "types": ["neighborhood", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Tacoma",
+          "shortText": "Tacoma",
+          "types": ["locality", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Pierce County",
+          "shortText": "Pierce County",
+          "types": ["administrative_area_level_2", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Washington",
+          "shortText": "WA",
+          "types": ["administrative_area_level_1", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "United States",
+          "shortText": "US",
+          "types": ["country", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "98444",
+          "shortText": "98444",
+          "types": ["postal_code"],
+          "languageCode": "en-US"
+        }
+      ],
+      "plusCode": {
+        "globalCode": "84VV5HG8+8H",
+        "compoundCode": "5HG8+8H Tacoma, WA, USA"
+      },
+      "location": {
+        "latitude": 47.175826799999996,
+        "longitude": -122.43358900000001
+      },
+      "viewport": {
+        "low": {
+          "latitude": 47.174597119708494,
+          "longitude": -122.4349318302915
+        },
+        "high": {
+          "latitude": 47.177295080291493,
+          "longitude": -122.43223386970853
+        }
+      },
+      "rating": 4.3,
+      "googleMapsUri": "https://maps.google.com/?cid=17694125178888300630",
+      "websiteUri": "https://www.hongkongtacoma.com/",
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 12,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 21,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: 11:00 AM – 9:00 PM",
+          "Wednesday: 11:00 AM – 9:00 PM",
+          "Thursday: 11:00 AM – 9:00 PM",
+          "Friday: 11:00 AM – 9:00 PM",
+          "Saturday: 12:00 – 9:00 PM",
+          "Sunday: 12:00 – 9:00 PM"
+        ],
+        "nextOpenTime": "2024-11-19T19:00:00Z"
+      },
+      "utcOffsetMinutes": -480,
+      "adrFormatAddress": "<span class=\"street-address\">8843 Pacific Ave</span>, <span class=\"locality\">Tacoma</span>, <span class=\"region\">WA</span> <span class=\"postal-code\">98444</span>, <span class=\"country-name\">USA</span>",
+      "businessStatus": "OPERATIONAL",
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "userRatingCount": 1839,
+      "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "iconBackgroundColor": "#FF9E67",
+      "displayName": {
+        "text": "Hong Kong Restaurant",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Chinese Restaurant",
+        "languageCode": "en-US"
+      },
+      "takeout": true,
+      "delivery": true,
+      "dineIn": true,
+      "curbsidePickup": true,
+      "reservable": true,
+      "servesBreakfast": false,
+      "servesLunch": true,
+      "servesDinner": true,
+      "servesBeer": true,
+      "servesWine": true,
+      "servesBrunch": false,
+      "servesVegetarianFood": true,
+      "currentOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 12,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 11,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 19
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 21,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 19
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 11,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 20
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 21,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 20
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 11,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 21
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 21,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 21
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 11,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 22
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 21,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 22
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 12,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 21,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: 11:00 AM – 9:00 PM",
+          "Wednesday: 11:00 AM – 9:00 PM",
+          "Thursday: 11:00 AM – 9:00 PM",
+          "Friday: 11:00 AM – 9:00 PM",
+          "Saturday: 12:00 – 9:00 PM",
+          "Sunday: 12:00 – 9:00 PM"
+        ],
+        "nextOpenTime": "2024-11-19T19:00:00Z"
+      },
+      "primaryType": "chinese_restaurant",
+      "shortFormattedAddress": "8843 Pacific Ave, Tacoma",
+      "editorialSummary": {
+        "text": "Basic eatery featuring standard Chinese fare, including noodles, chicken dishes & roast duck.",
+        "languageCode": "en"
+      },
+      "reviews": [
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/reviews/ChdDSUhNMG9nS0VJQ0FnSURubk5DaHB3RRAB",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 1,
+          "text": {
+            "text": "Absolutely not. We ordered 2 Dinner D's and the amount of food for the price was INSANE, the website said $23 something per person for dinner D, and the only thing extra we ordered was a side of crab Rangoons, and it came out to like $67, and I didn't think much of it until I saw the amount of food, it seriously looked like we only got 1 dinner, not both. I even called to ask and she said it's correct, there was 1 small container of orange chicken, a small thing of rice, everything was so tiny and such a little amount it's absolutely blowing my mind.  Almost $70 for barely enough food for 2 people, more like 1. Extremely irritating, and I would like to point out that every other restaurant or fast food place I've been to in tacoma has a \"Great\" from the health inspection, this place has an \"okay\" as of July 2024, definitely wouldn't recommend, I didn't eat, there wasn't enough food for the 3 people we had, my partner said it was bland and the egg roll was funky",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Absolutely not. We ordered 2 Dinner D's and the amount of food for the price was INSANE, the website said $23 something per person for dinner D, and the only thing extra we ordered was a side of crab Rangoons, and it came out to like $67, and I didn't think much of it until I saw the amount of food, it seriously looked like we only got 1 dinner, not both. I even called to ask and she said it's correct, there was 1 small container of orange chicken, a small thing of rice, everything was so tiny and such a little amount it's absolutely blowing my mind.  Almost $70 for barely enough food for 2 people, more like 1. Extremely irritating, and I would like to point out that every other restaurant or fast food place I've been to in tacoma has a \"Great\" from the health inspection, this place has an \"okay\" as of July 2024, definitely wouldn't recommend, I didn't eat, there wasn't enough food for the 3 people we had, my partner said it was bland and the egg roll was funky",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "East Stovall",
+            "uri": "https://www.google.com/maps/contrib/101083404551116820673/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLGjqUSrSjuMwaE2vQCx-Yeuyg5viI3dRrTbpC03QbBovSmug=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2024-10-04T01:57:25.412006Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURubk5DaHB3RRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURubk5DaHB3RRAB!2m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/reviews/ChZDSUhNMG9nS0VJQ0FnSUNiajZIZlVBEAE",
+          "relativePublishTimeDescription": "3 months ago",
+          "rating": 4,
+          "text": {
+            "text": "Food was excellent 👌 and I would recommend this place to anyone looking for good food and wonderful atmosphere! Pick up was painless and very fast!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Food was excellent 👌 and I would recommend this place to anyone looking for good food and wonderful atmosphere! Pick up was painless and very fast!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Rebecca “PSYCHOLICIOUS1” Perry",
+            "uri": "https://www.google.com/maps/contrib/100046522734395816400/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXpRAFdscW3P_txm_4d5mLxz24bii9fzVDCGnml44-NO3MIPSJVzw=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2024-07-31T04:11:10.911778Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNiajZIZlVBEAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNiajZIZlVBEAE!2m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/reviews/ChZDSUhNMG9nS0VJQ0FnSURCLTRmNEZBEAE",
+          "relativePublishTimeDescription": "4 months ago",
+          "rating": 1,
+          "text": {
+            "text": "I got my order in the time stated, even saw it come out from the kitchen. We had the individual meals 2 and 3. I got home in (5 minutes), and the first thing my husband and I see is a pile of grey mush. One cardinal rule in the kitchen is that when you fry something, it doesn't get SMOTHERED in a gravy, and if to go, the gravy is on the SIDE. Weirdest almond chicken I've ever seen.\nAlso, not sure why they batered an egg roll. It was so crispy it hurt your gums to bite it and the wrap itself was somehow kept some raw due to the thickness of the batter. The filling is bland on the inside, plus the noodles and fried rice were average at best. I cut open the egg roll to see if it was the egg roll but returned both meals. I won't be returning.\nPs. No matter what you do, a TBS of sauce will not cover the amount of protein they give. This is their version of 'Almond chicken. This is how it comes for all proteins and the sauce is always underneath.\n\nUpdate. Husband returned 10 min. later with the same food. Restaurant refused to do it over or even offer something different, refused to refund, and all that was said was \"that's the way it's been done for 30 years.\" Not sure how people are giving this place more than 2 stars, but the bad experience with their take out has made it so we DO NOT wish to have the sitdown experience. Husband ate because of blood sugar, but I ate a left over omelet. Waste of time and $.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "I got my order in the time stated, even saw it come out from the kitchen. We had the individual meals 2 and 3. I got home in (5 minutes), and the first thing my husband and I see is a pile of grey mush. One cardinal rule in the kitchen is that when you fry something, it doesn't get SMOTHERED in a gravy, and if to go, the gravy is on the SIDE. Weirdest almond chicken I've ever seen.\nAlso, not sure why they batered an egg roll. It was so crispy it hurt your gums to bite it and the wrap itself was somehow kept some raw due to the thickness of the batter. The filling is bland on the inside, plus the noodles and fried rice were average at best. I cut open the egg roll to see if it was the egg roll but returned both meals. I won't be returning.\nPs. No matter what you do, a TBS of sauce will not cover the amount of protein they give. This is their version of 'Almond chicken. This is how it comes for all proteins and the sauce is always underneath.\n\nUpdate. Husband returned 10 min. later with the same food. Restaurant refused to do it over or even offer something different, refused to refund, and all that was said was \"that's the way it's been done for 30 years.\" Not sure how people are giving this place more than 2 stars, but the bad experience with their take out has made it so we DO NOT wish to have the sitdown experience. Husband ate because of blood sugar, but I ate a left over omelet. Waste of time and $.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Brittany Marie",
+            "uri": "https://www.google.com/maps/contrib/100309835282221140815/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK-QnjIwbi8FihiWJ6WwPvdAUonACgwExhz-_SvvOxQR9Zkow=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2024-07-04T23:00:59.323016Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURCLTRmNEZBEAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURCLTRmNEZBEAE!2m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/reviews/ChZDSUhNMG9nS0VJQ0FnSURua2MtcVl3EAE",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 3,
+          "text": {
+            "text": "The food was good, but unfortunately not at all worth the price. As previously mentioned, the “Family Dinners” which require you order 2+, are incredibly small. Did it feed the 2 people intended in this instance, yes. But half the point of ordering a family meal from a Chinese restaurant is to have leftovers, and this place did not allow for that. We won’t return simply because we can get even better food, and much more for less elsewhere",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "The food was good, but unfortunately not at all worth the price. As previously mentioned, the “Family Dinners” which require you order 2+, are incredibly small. Did it feed the 2 people intended in this instance, yes. But half the point of ordering a family meal from a Chinese restaurant is to have leftovers, and this place did not allow for that. We won’t return simply because we can get even better food, and much more for less elsewhere",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Erin Moore",
+            "uri": "https://www.google.com/maps/contrib/101911761324969476684/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVAZfpQkkO6UBMYa3BGrerTuCaV_xH7Huj5OW2mcjnvHWObsNU=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2024-10-06T21:24:24.427190Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURua2MtcVl3EAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURua2MtcVl3EAE!2m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/reviews/ChdDSUhNMG9nS0VJQ0FnSUNqbWVyb2xRRRAB",
+          "relativePublishTimeDescription": "6 months ago",
+          "rating": 3,
+          "text": {
+            "text": "It's ok, I suppose. Some of it was pretty good. The chow mein was pretty bland. Their egg rolls are really good. Fried rice average at best. Just your average Chinese restaurant, I suppose.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "It's ok, I suppose. Some of it was pretty good. The chow mein was pretty bland. Their egg rolls are really good. Fried rice average at best. Just your average Chinese restaurant, I suppose.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Britteny and Joe W",
+            "uri": "https://www.google.com/maps/contrib/117256329528804005817/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVqvocN7OZ5tiB9Bv4uacqSwjxvIyaC9ZKVgpyi0oMafvmPaGEwrQ=s128-c0x00000000-cc-rp-mo-ba6"
+          },
+          "publishTime": "2024-04-23T12:28:28.260840Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNqbWVyb2xRRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNqbWVyb2xRRRAB!2m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWqgh9s78uMxWAxmse1BpoEQga0DVq_thoRKkMrDvNHoxLRMIels_-sy4Kgs1gSHDOcP3An5SpWIZJZjbfVKQOWGFt942J-QK1pwIk1y7Ebg81Tc4SAKCjM70HR0Z6wVNYaxSsGq_LxnX7L4ZGOnGjVr59j3pcFSgTs3",
+          "widthPx": 3024,
+          "heightPx": 1795,
+          "authorAttributions": [
+            {
+              "displayName": "Hong Kong Restaurant",
+              "uri": "https://maps.google.com/maps/contrib/115162524547791120213",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV6IYHFMDHU5rF6b4w1smPmOkjjwqFSj0SL_2a69IVmOOQ9WgI=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipP8w_UAg476SxifK8vIFm8dNC0CoEduWPRpNMB2&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP8w_UAg476SxifK8vIFm8dNC0CoEduWPRpNMB2!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWqaMQ5xKLz50Us_mapccxeaDjQnaE0WESohG_1Hc9d_FL-_9lK0rv2xtD00fnOuaYux-Hewvt1NyJLzjgJowy-4mr8_1AL-ZfmLOR1v0VSdebZXWLBKkR9CM5fgJfo3qdj0lu5OJDd8psqhgSHX-VTJuMXlo12JW_zf",
+          "widthPx": 4032,
+          "heightPx": 3024,
+          "authorAttributions": [
+            {
+              "displayName": "Hong Kong Restaurant",
+              "uri": "https://maps.google.com/maps/contrib/115162524547791120213",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV6IYHFMDHU5rF6b4w1smPmOkjjwqFSj0SL_2a69IVmOOQ9WgI=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNdi_dLeDiX6aZjHNPgNfuIBkeklu4Se1WFDXlx&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNdi_dLeDiX6aZjHNPgNfuIBkeklu4Se1WFDXlx!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWqtI2Kguo-5RV3PQsaqJmvVr7Zh9uyq-UEvdPGkrVgtNtcjC9gYDQ8CZUBL9R6E2bSvWTABAynRZVmqsWO6THi4s8fIrasOUj_dfYL9_Abqgpwt1DwUjMZfxf018Qf4aa5RCq14IMSMuT49g1sBk8_D4CipS-iQQVIt",
+          "widthPx": 3000,
+          "heightPx": 4000,
+          "authorAttributions": [
+            {
+              "displayName": "Strawberry Boudoir Photography",
+              "uri": "https://maps.google.com/maps/contrib/112206145159540756556",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXRyP37NmyU6UGETpDj3v2Y7wMmMeq9QiJAcVHjCfQIP_Hp5vfj_Q=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipMi6BSPtyRN3Cat1mo3nfP4TOGZGjyy7SxTf5Ql&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMi6BSPtyRN3Cat1mo3nfP4TOGZGjyy7SxTf5Ql!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWqbPKYAEtJCL9zAcVqycNMwMsk1aJ8Lb_wW1xFcgm3ZFyYwKOyzDl2djtmuisO6HkNYG8X7WvGtM4lVM2pogLkjWUzjEoY9uG7spRdon1U6i4HrE2Y_5uuXrY4qxE5tjPwXmRb56f9f87kX3H5asZzgJleXwYQ8Psmx",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "M B",
+              "uri": "https://maps.google.com/maps/contrib/116073888179748591436",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU1-dpSeaYGt65chSGFoAC__zI28pd-kNKAs5M2AJOpQqwjzf-dBA=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNYiw99mWRQBu1NLUe0C3iMHSHuaZXAMcl7r8cc&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNYiw99mWRQBu1NLUe0C3iMHSHuaZXAMcl7r8cc!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWr83iWfGbQrLkCx09OQNKHwZCBktEuK7F1qddyFRDIFLJc1IF4VEMwYFqid56MjpV9QovZujQ9g-HkW5aHD92AiIF8DupsZhRrLPZDhF043DenrRpkA1ALK16Axaaem9OF_vyy-Zn2wYZEzmW3zlIJSF8uR5g3KX9DT",
+          "widthPx": 4800,
+          "heightPx": 3600,
+          "authorAttributions": [
+            {
+              "displayName": "Bill Sauneuf",
+              "uri": "https://maps.google.com/maps/contrib/112696609992865160135",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWZMho0yv-6WQ0gqk1_8_v4S2TrlJnnFfkkMzCg01lV-hAIcBiC=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNFsrQ9xmqvy0HXNp09e6K0adOOe6jVRb1kBKwM&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNFsrQ9xmqvy0HXNp09e6K0adOOe6jVRb1kBKwM!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWp1UmvJwCV_q63x5aNcf2yAVh_BSd5P4QR2K9RJuoEtMpv1Otrdrk2ycxs32m5x2obEVNzPU7s-D1d5nI7EuMYNVdQglWjHdgONl9o3UrBj5nd4QDasmWPECXl7e5TaQxtUPcOW8hD6otV9018uD87BYC4D3sULCVbH",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "chris craig",
+              "uri": "https://maps.google.com/maps/contrib/116968509767375788085",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXtVS6iZsjcaQCfz7OUdE8_2cnA3hn4SPmLVefo-AwcjPPH4ELVgA=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipOBHrGDTpUsVcaqfd7ur9SNI-Iq3k9xyEUmbSH0&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOBHrGDTpUsVcaqfd7ur9SNI-Iq3k9xyEUmbSH0!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWpTgeyqg3U2oRbdDaf82ML-1X98pHS_c3eE7kXwngVOHCeRVT5XX8bk9kzUfSZ-rIbCkUA-f8Gq9sakbtsrD6Vru40rPQcTK_Cql-R5rO8ThMNf-8HfU6kNM9ABCnPI5hQDxr1dFsrUaa7CR2lONr0Foed6DIiJyCwr",
+          "widthPx": 3000,
+          "heightPx": 4000,
+          "authorAttributions": [
+            {
+              "displayName": "Strawberry Boudoir Photography",
+              "uri": "https://maps.google.com/maps/contrib/112206145159540756556",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXRyP37NmyU6UGETpDj3v2Y7wMmMeq9QiJAcVHjCfQIP_Hp5vfj_Q=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNiUaZuT4ffkc-jvzPOLFvAJhmfj0UQhMuyoUMS&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNiUaZuT4ffkc-jvzPOLFvAJhmfj0UQhMuyoUMS!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWrvL1ZjEIN2d3c-qKzP1sr7F9EHUUGdkbvitgSYLzqeUI2JKcm3SqU2eaFhBCpvaQ71wNKq_ew8RZiCdMzegXWO8nYDvPpQkJU6ZNuevmD76xrmkus1NpzoB4LnSHaiNn9s6hNv10iGywgwp0Ai8Y82FhSeo3aZxiXv",
+          "widthPx": 4800,
+          "heightPx": 3600,
+          "authorAttributions": [
+            {
+              "displayName": "Bill Sauneuf",
+              "uri": "https://maps.google.com/maps/contrib/112696609992865160135",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWZMho0yv-6WQ0gqk1_8_v4S2TrlJnnFfkkMzCg01lV-hAIcBiC=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipN5T92xUZj8Iyw1ntDcakKE5cCVYA0YP0PP46ZJ&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN5T92xUZj8Iyw1ntDcakKE5cCVYA0YP0PP46ZJ!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWoDHJbfsCyXaKDPYq0cbqZsm2IDFp9ZgGcbmbdbZqGyJkKS3XGjJtAYVHfg8P7sB3CkhJgAZuhybO9CQmGHTA3pSn0t0KrbbsIKggzxXk4tDgZt-mfwvJ7CJd7rHfPHLSmeVcudzCwxmmp5njn6KsnhluNpVVtYGegK",
+          "widthPx": 4800,
+          "heightPx": 3600,
+          "authorAttributions": [
+            {
+              "displayName": "Bill Sauneuf",
+              "uri": "https://maps.google.com/maps/contrib/112696609992865160135",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWZMho0yv-6WQ0gqk1_8_v4S2TrlJnnFfkkMzCg01lV-hAIcBiC=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipP93lBuXwO7MRdOgBwsnsu1AXrzEjD-jGlPaCSM&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP93lBuXwO7MRdOgBwsnsu1AXrzEjD-jGlPaCSM!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        },
+        {
+          "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU/photos/AdDdOWovEDbg45BDQbIV1c8KkoBdGjRnh1S3-uOQxxggLsVbrCAaMVRXMi2e-7kmlq54h48qqhM_mNtH0JtmrQr5uvZHhWGM6VWwNvZP11LENThU1elG6RNz7MoIINF1PoJcy4_7ZL6Wb7MVmaWtr7PAqm5-wpeVsZ_U8mgA",
+          "widthPx": 4624,
+          "heightPx": 2600,
+          "authorAttributions": [
+            {
+              "displayName": "Anthony Bailey",
+              "uri": "https://maps.google.com/maps/contrib/110607749173815087158",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWvmI5ZEOErs_QO5T5vOdO4DxqUS2naYc-Y_OfPWydVibAjTYV9=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipN99r00X2Yvhzlc1xiyV3-nCdySMzpg01Yo8jCV&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN99r00X2Yvhzlc1xiyV3-nCdySMzpg01Yo8jCV!2e10!4m2!3m1!1s0x549101dadc5594c5:0xf58e291a4aeea856"
+        }
+      ],
+      "outdoorSeating": false,
+      "liveMusic": false,
+      "menuForChildren": true,
+      "servesCocktails": true,
+      "servesDessert": true,
+      "servesCoffee": true,
+      "goodForChildren": true,
+      "allowsDogs": false,
+      "restroom": true,
+      "goodForGroups": true,
+      "goodForWatchingSports": false,
+      "paymentOptions": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "parkingOptions": {
+        "freeParkingLot": true,
+        "freeStreetParking": true,
+        "valetParking": false
+      },
+      "accessibilityOptions": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true,
+        "wheelchairAccessibleSeating": true
+      },
+      "generativeSummary": {
+        "overview": {
+          "text": "Traditional Chinese food, including vegetarian options, in a casual restaurant open for dine-in.",
+          "languageCode": "en-US"
+        },
+        "overviewFlagContentUri": "https://www.google.com/local/review/rap/report?postId=CiUweDU0OTEwMWRhZGM1NTk0YzU6MHhmNThlMjkxYTRhZWVhODU2MAI&d=17924085&t=12"
+      },
+      "addressDescriptor": {
+        "landmarks": [
+          {
+            "name": "places/ChIJf5tDwdoBkVQRB5BsP3VHNh0",
+            "placeId": "ChIJf5tDwdoBkVQRB5BsP3VHNh0",
+            "displayName": {
+              "text": "Premier Chiropractic of Tacoma PLLC",
+              "languageCode": "en"
+            },
+            "types": ["doctor", "establishment", "health", "point_of_interest"],
+            "spatialRelationship": "ACROSS_THE_ROAD",
+            "straightLineDistanceMeters": 29.386599,
+            "travelDistanceMeters": 9.161979
+          },
+          {
+            "name": "places/ChIJ9a25uiYBkVQRqc9wBYjCHfM",
+            "placeId": "ChIJ9a25uiYBkVQRqc9wBYjCHfM",
+            "displayName": {
+              "text": "Skyline Motors Auto Sales",
+              "languageCode": "en"
+            },
+            "types": [
+              "car_dealer",
+              "establishment",
+              "point_of_interest",
+              "store"
+            ],
+            "straightLineDistanceMeters": 88.04042
+          },
+          {
+            "name": "places/ChIJj7s6hNABkVQR2o4bupMFrrM",
+            "placeId": "ChIJj7s6hNABkVQR2o4bupMFrrM",
+            "displayName": {
+              "text": "Extra Space Storage",
+              "languageCode": "en"
+            },
+            "types": [
+              "establishment",
+              "moving_company",
+              "point_of_interest",
+              "storage",
+              "store"
+            ],
+            "straightLineDistanceMeters": 247.17038
+          },
+          {
+            "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU",
+            "placeId": "ChIJaSSeXesBkVQR8CXOGLqjFkU",
+            "displayName": {
+              "text": "Restaurant El Charrito 2",
+              "languageCode": "en"
+            },
+            "types": [
+              "establishment",
+              "food",
+              "point_of_interest",
+              "restaurant"
+            ],
+            "straightLineDistanceMeters": 122.800476
+          },
+          {
+            "name": "places/ChIJp7iATOoBkVQRmDdO9U5VflU",
+            "placeId": "ChIJp7iATOoBkVQRmDdO9U5VflU",
+            "displayName": {
+              "text": "Enterprise Rent-A-Car",
+              "languageCode": "en"
+            },
+            "types": ["car_rental", "establishment", "point_of_interest"],
+            "straightLineDistanceMeters": 419.58496
+          }
+        ],
+        "areas": [
+          {
+            "name": "places/ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "placeId": "ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "displayName": {
+              "text": "South End",
+              "languageCode": "en"
+            },
+            "containment": "WITHIN"
+          },
+          {
+            "name": "places/ChIJ1VY-69oBkVQR6pKPm4XA0vo",
+            "placeId": "ChIJ1VY-69oBkVQR6pKPm4XA0vo",
+            "displayName": {
+              "text": "Pacific Lodge",
+              "languageCode": "en"
+            },
+            "containment": "NEAR"
+          },
+          {
+            "name": "places/ChIJcXY5yNoBkVQR_oPUin_97Gk",
+            "placeId": "ChIJcXY5yNoBkVQR_oPUin_97Gk",
+            "displayName": {
+              "text": "Westwood Square Apartments",
+              "languageCode": "en"
+            },
+            "containment": "NEAR"
+          }
+        ]
+      },
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x549101dadc5594c5:0xf58e291a4aeea856!3e0",
+        "placeUri": "https://maps.google.com/?cid=17694125178888300630",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101dadc5594c5:0xf58e291a4aeea856!12e1",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x549101dadc5594c5:0xf58e291a4aeea856!9m1!1b1",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101dadc5594c5:0xf58e291a4aeea856!10e5"
+      },
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      }
+    },
+    {
+      "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo",
+      "id": "ChIJYelN8dABkVQRBvvNQk7gSDo",
+      "types": [
+        "pizza_restaurant",
+        "meal_takeaway",
+        "meal_delivery",
+        "food_delivery",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "nationalPhoneNumber": "(253) 531-6611",
+      "internationalPhoneNumber": "+1 253-531-6611",
+      "formattedAddress": "8442 Pacific Ave, Tacoma, WA 98444, USA",
+      "addressComponents": [
+        {
+          "longText": "8442",
+          "shortText": "8442",
+          "types": ["street_number"],
+          "languageCode": "en-US"
+        },
+        {
+          "longText": "Pacific Avenue",
+          "shortText": "Pacific Ave",
+          "types": ["route"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "South End",
+          "shortText": "South End",
+          "types": ["neighborhood", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Tacoma",
+          "shortText": "Tacoma",
+          "types": ["locality", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Pierce County",
+          "shortText": "Pierce County",
+          "types": ["administrative_area_level_2", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Washington",
+          "shortText": "WA",
+          "types": ["administrative_area_level_1", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "United States",
+          "shortText": "US",
+          "types": ["country", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "98444",
+          "shortText": "98444",
+          "types": ["postal_code"],
+          "languageCode": "en-US"
+        }
+      ],
+      "plusCode": {
+        "globalCode": "84VV5HH8+P7",
+        "compoundCode": "5HH8+P7 Tacoma, WA, USA"
+      },
+      "location": {
+        "latitude": 47.1793363,
+        "longitude": -122.43437379999999
+      },
+      "viewport": {
+        "low": {
+          "latitude": 47.178329319708496,
+          "longitude": -122.43570898029149
+        },
+        "high": {
+          "latitude": 47.181027280291495,
+          "longitude": -122.43301101970852
+        }
+      },
+      "rating": 3.5,
+      "googleMapsUri": "https://maps.google.com/?cid=4199853279255853830",
+      "websiteUri": "https://www.dominos.com/en/?utm_source=google&utm_medium=loclist&utm_campaign=localmaps",
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 12:00 AM",
+          "Tuesday: 10:00 AM – 12:00 AM",
+          "Wednesday: 10:00 AM – 12:00 AM",
+          "Thursday: 10:00 AM – 12:00 AM",
+          "Friday: 10:00 AM – 1:00 AM",
+          "Saturday: 10:00 AM – 1:00 AM",
+          "Sunday: 10:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2024-11-18T08:00:00Z"
+      },
+      "utcOffsetMinutes": -480,
+      "adrFormatAddress": "<span class=\"street-address\">8442 Pacific Ave</span>, <span class=\"locality\">Tacoma</span>, <span class=\"region\">WA</span> <span class=\"postal-code\">98444</span>, <span class=\"country-name\">USA</span>",
+      "businessStatus": "OPERATIONAL",
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "userRatingCount": 712,
+      "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+      "iconBackgroundColor": "#7B9EB0",
+      "displayName": {
+        "text": "Domino's Pizza",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Delivery Restaurant",
+        "languageCode": "en-US"
+      },
+      "takeout": true,
+      "delivery": true,
+      "curbsidePickup": true,
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0,
+              "truncated": true,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 1,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 0,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 18
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 18
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 0,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 19
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 19
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 0,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 20
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 20
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 0,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 21
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 21
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 0,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 22
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 22
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 59,
+              "truncated": true,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 12:00 AM",
+          "Tuesday: 10:00 AM – 12:00 AM",
+          "Wednesday: 10:00 AM – 12:00 AM",
+          "Thursday: 10:00 AM – 12:00 AM",
+          "Friday: 10:00 AM – 1:00 AM",
+          "Saturday: 10:00 AM – 1:00 AM",
+          "Sunday: 10:00 AM – 12:00 AM"
+        ],
+        "nextCloseTime": "2024-11-18T08:00:00Z"
+      },
+      "currentSecondaryOpeningHours": [
+        {
+          "openNow": true,
+          "periods": [
+            {
+              "open": {
+                "day": 0,
+                "hour": 0,
+                "minute": 0,
+                "truncated": true,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 17
+                }
+              },
+              "close": {
+                "day": 0,
+                "hour": 1,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 17
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 0,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 17
+                }
+              },
+              "close": {
+                "day": 1,
+                "hour": 0,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 18
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 1,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 18
+                }
+              },
+              "close": {
+                "day": 2,
+                "hour": 0,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 19
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 2,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 19
+                }
+              },
+              "close": {
+                "day": 3,
+                "hour": 0,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 20
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 3,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 20
+                }
+              },
+              "close": {
+                "day": 4,
+                "hour": 0,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 21
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 4,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 21
+                }
+              },
+              "close": {
+                "day": 5,
+                "hour": 0,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 22
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 5,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 22
+                }
+              },
+              "close": {
+                "day": 6,
+                "hour": 1,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 23
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 6,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 23
+                }
+              },
+              "close": {
+                "day": 6,
+                "hour": 23,
+                "minute": 59,
+                "truncated": true,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 23
+                }
+              }
+            }
+          ],
+          "weekdayDescriptions": [
+            "Monday: 10:00 AM – 12:00 AM",
+            "Tuesday: 10:00 AM – 12:00 AM",
+            "Wednesday: 10:00 AM – 12:00 AM",
+            "Thursday: 10:00 AM – 12:00 AM",
+            "Friday: 10:00 AM – 1:00 AM",
+            "Saturday: 10:00 AM – 1:00 AM",
+            "Sunday: 10:00 AM – 12:00 AM"
+          ],
+          "secondaryHoursType": "DELIVERY",
+          "nextCloseTime": "2024-11-18T08:00:00Z"
+        },
+        {
+          "openNow": false,
+          "periods": [
+            {
+              "open": {
+                "day": 0,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 17
+                }
+              },
+              "close": {
+                "day": 0,
+                "hour": 22,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 17
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 1,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 18
+                }
+              },
+              "close": {
+                "day": 1,
+                "hour": 22,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 18
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 2,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 19
+                }
+              },
+              "close": {
+                "day": 2,
+                "hour": 22,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 19
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 3,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 20
+                }
+              },
+              "close": {
+                "day": 3,
+                "hour": 22,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 20
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 4,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 21
+                }
+              },
+              "close": {
+                "day": 4,
+                "hour": 22,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 21
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 5,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 22
+                }
+              },
+              "close": {
+                "day": 5,
+                "hour": 22,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 22
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 6,
+                "hour": 10,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 23
+                }
+              },
+              "close": {
+                "day": 6,
+                "hour": 22,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 23
+                }
+              }
+            }
+          ],
+          "weekdayDescriptions": [
+            "Monday: 10:00 AM – 10:00 PM",
+            "Tuesday: 10:00 AM – 10:00 PM",
+            "Wednesday: 10:00 AM – 10:00 PM",
+            "Thursday: 10:00 AM – 10:00 PM",
+            "Friday: 10:00 AM – 10:00 PM",
+            "Saturday: 10:00 AM – 10:00 PM",
+            "Sunday: 10:00 AM – 10:00 PM"
+          ],
+          "secondaryHoursType": "TAKEOUT",
+          "nextOpenTime": "2024-11-18T18:00:00Z"
+        }
+      ],
+      "regularSecondaryOpeningHours": [
+        {
+          "openNow": true,
+          "periods": [
+            {
+              "open": {
+                "day": 0,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 1,
+                "hour": 0,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 1,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 2,
+                "hour": 0,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 2,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 3,
+                "hour": 0,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 3,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 4,
+                "hour": 0,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 4,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 5,
+                "hour": 0,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 5,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 6,
+                "hour": 1,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 6,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 0,
+                "hour": 1,
+                "minute": 0
+              }
+            }
+          ],
+          "weekdayDescriptions": [
+            "Monday: 10:00 AM – 12:00 AM",
+            "Tuesday: 10:00 AM – 12:00 AM",
+            "Wednesday: 10:00 AM – 12:00 AM",
+            "Thursday: 10:00 AM – 12:00 AM",
+            "Friday: 10:00 AM – 1:00 AM",
+            "Saturday: 10:00 AM – 1:00 AM",
+            "Sunday: 10:00 AM – 12:00 AM"
+          ],
+          "secondaryHoursType": "DELIVERY",
+          "nextCloseTime": "2024-11-18T08:00:00Z"
+        },
+        {
+          "openNow": false,
+          "periods": [
+            {
+              "open": {
+                "day": 0,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 0,
+                "hour": 22,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 1,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 1,
+                "hour": 22,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 2,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 2,
+                "hour": 22,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 3,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 3,
+                "hour": 22,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 4,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 4,
+                "hour": 22,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 5,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 5,
+                "hour": 22,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 6,
+                "hour": 10,
+                "minute": 0
+              },
+              "close": {
+                "day": 6,
+                "hour": 22,
+                "minute": 0
+              }
+            }
+          ],
+          "weekdayDescriptions": [
+            "Monday: 10:00 AM – 10:00 PM",
+            "Tuesday: 10:00 AM – 10:00 PM",
+            "Wednesday: 10:00 AM – 10:00 PM",
+            "Thursday: 10:00 AM – 10:00 PM",
+            "Friday: 10:00 AM – 10:00 PM",
+            "Saturday: 10:00 AM – 10:00 PM",
+            "Sunday: 10:00 AM – 10:00 PM"
+          ],
+          "secondaryHoursType": "TAKEOUT",
+          "nextOpenTime": "2024-11-18T18:00:00Z"
+        }
+      ],
+      "primaryType": "meal_delivery",
+      "shortFormattedAddress": "8442 Pacific Ave, Tacoma",
+      "editorialSummary": {
+        "text": "Delivery/carryout chain offering a wide range of pizzas & a variety of other dishes & sides.",
+        "languageCode": "en"
+      },
+      "reviews": [
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/reviews/ChZDSUhNMG9nS0VJQ0FnSURucTlqYU1REAE",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 1,
+          "text": {
+            "text": "Burnt food no garlic on the bites and just rude atmosphere. The female night manager is especially terrible. But it's got more to do with my crappy burnt food that they never do anything about anyway",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Burnt food no garlic on the bites and just rude atmosphere. The female night manager is especially terrible. But it's got more to do with my crappy burnt food that they never do anything about anyway",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Jen W",
+            "uri": "https://www.google.com/maps/contrib/109406249251391794725/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXepDAq-KOYW8_UACbstFPVB9zFWlQNpPbIsNA2vaU15vROTaJd=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2024-10-10T05:27:28.871278Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURucTlqYU1REAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURucTlqYU1REAE!2m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/reviews/ChdDSUhNMG9nS0VJQ0FnSUNUX196SzJnRRAB",
+          "relativePublishTimeDescription": "6 months ago",
+          "rating": 1,
+          "text": {
+            "text": "Ordered two pizzas online. My pizza is Gluten Free. They didn't make it right, its not GF. I called them, and because it's a carry out order they want to give a credit for another carry out. No, I don't want that. I want it refunded, it's not what we paid for. They refuse to issue a refund or delivery. Only a store credit. I dont have the ability to correct their mixup. No customer service for their mistake. So disappointing.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Ordered two pizzas online. My pizza is Gluten Free. They didn't make it right, its not GF. I called them, and because it's a carry out order they want to give a credit for another carry out. No, I don't want that. I want it refunded, it's not what we paid for. They refuse to issue a refund or delivery. Only a store credit. I dont have the ability to correct their mixup. No customer service for their mistake. So disappointing.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Sky Walker",
+            "uri": "https://www.google.com/maps/contrib/100088981108895767092/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjU1uFodH8pvED5OzyfClwWacoepJWzwRurO_O_Y92Q2wLz8jeze=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2024-05-21T02:24:09.792835Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNUX196SzJnRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNUX196SzJnRRAB!2m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/reviews/ChZDSUhNMG9nS0VJQ0FnSURkdW9fNVNnEAE",
+          "relativePublishTimeDescription": "8 months ago",
+          "rating": 4,
+          "text": {
+            "text": "Pasta was so good. I finished it before I could even do my review.\n\nThe brownies look like they were cooked probably 30 seconds too much but still bomb .\nAnd the delivery driver was super friendly.\n\nI ordered my food at 2:47 & got it at 3:03 & i live only 4mins away from the store",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Pasta was so good. I finished it before I could even do my review.\n\nThe brownies look like they were cooked probably 30 seconds too much but still bomb .\nAnd the delivery driver was super friendly.\n\nI ordered my food at 2:47 & got it at 3:03 & i live only 4mins away from the store",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Serinity Veliz",
+            "uri": "https://www.google.com/maps/contrib/114723155577491498614/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWY9fWdJ_IToV4c7GLALZw_sshhjwpysy3sg-qTUc8mJlTCAfu0=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2024-02-22T23:17:22.793644Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURkdW9fNVNnEAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURkdW9fNVNnEAE!2m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/reviews/ChZDSUhNMG9nS0VJQ0FnSUNIMWNHRkZ3EAE",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 2,
+          "text": {
+            "text": "Domino's is my favorite place to get pizza, but the location in Tacoma is unbelievably bad. It's after 10pm so carryout and ordering in the lobby is unavailable. I decided to park outside and order online and they weren't kind at all on the phone. In addition, for being in the parking lot I find it absolutely impressive that they managed to be 46 minutes late. I personally don't think this is acceptable at all and won't be getting pizza from this specific location again.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Domino's is my favorite place to get pizza, but the location in Tacoma is unbelievably bad. It's after 10pm so carryout and ordering in the lobby is unavailable. I decided to park outside and order online and they weren't kind at all on the phone. In addition, for being in the parking lot I find it absolutely impressive that they managed to be 46 minutes late. I personally don't think this is acceptable at all and won't be getting pizza from this specific location again.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Chayton Phelps",
+            "uri": "https://www.google.com/maps/contrib/111934990051227861586/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUzW6lqpP3gR3vHq1BwTASZjhEKgvkIg4eQ_RdKxdwZ1rtMlLA=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2024-09-07T07:28:00.758035Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNIMWNHRkZ3EAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNIMWNHRkZ3EAE!2m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/reviews/ChdDSUhNMG9nS0VJQ0FnSUR0MGNEUl93RRAB",
+          "relativePublishTimeDescription": "9 months ago",
+          "rating": 1,
+          "text": {
+            "text": "The service that I received tonight was extremely disappointing and horrible. I asked night manager Derek if he could replace my order and he refused to make my order into something else.\nHe specifically told me I could not get a cheese pizza that I can only get the pizza that I ordered, even though I had ordered a cheese pizza.\nThe pizza I had was dry no cheese and extremely nasty. Derek was going to remake the same nasty pizza for after I already didn’t like it.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "The service that I received tonight was extremely disappointing and horrible. I asked night manager Derek if he could replace my order and he refused to make my order into something else.\nHe specifically told me I could not get a cheese pizza that I can only get the pizza that I ordered, even though I had ordered a cheese pizza.\nThe pizza I had was dry no cheese and extremely nasty. Derek was going to remake the same nasty pizza for after I already didn’t like it.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Torah Robinson",
+            "uri": "https://www.google.com/maps/contrib/109411942873499493347/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV3kSslVVAy36_i-7o_9Whd-UGiKjJXg33QZr1d6Rsy1uAZhiI_8w=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2024-02-05T05:35:31.109057Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR0MGNEUl93RRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR0MGNEUl93RRAB!2m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWomxrOjROwVz3iKqmtHiM0q7rwIs-h4Z2yZ4i0eHjnEox6O7c3LzlKXuDqZT0lbEcXFCsoEUy75BYWnmlaOI7_AXGIUsSSOCsk6H_02bgCeOywUchw5f4O6Jo58vuCcasedee52arx3kGGa2u3TQ4dPPr_ukkgTtAtd",
+          "widthPx": 4032,
+          "heightPx": 3024,
+          "authorAttributions": [
+            {
+              "displayName": "Heather Shults",
+              "uri": "https://maps.google.com/maps/contrib/111217637397915229233",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXRKUUzDmpDV7sC_SXMKcyEFS_pKsIZtCDx23YpNkK2-WFLz0YBpw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipO4jaMJA-Sa0Fmd7IgoAFCCtB_b6z2hGLIGgII3&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO4jaMJA-Sa0Fmd7IgoAFCCtB_b6z2hGLIGgII3!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWrdZjmKzlrviKLVMrAWX6m7S5-vFE9NdfGaYBwBdQyiL9G6_zwZ9CUIJVfrCvKYFvavccw2zsyQ-6N9PL4BYMAciWopaW4wz-jLd71kHFg0NwOJaCa_rKy82zEWrd_mQRnIHQ96QwVVNfK6PYXMRvfhsx2C-_XrUtxy",
+          "widthPx": 1418,
+          "heightPx": 794,
+          "authorAttributions": [
+            {
+              "displayName": "Domino's Pizza",
+              "uri": "https://maps.google.com/maps/contrib/114697113467038482511",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3lyBUW3Potjdwic9gjhico6KU4QisiVDhap6RRQMqyW2R__XE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNdyoDCZBjbRqy8LkNfDmAD0xSqaN0JNqIoYj99&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNdyoDCZBjbRqy8LkNfDmAD0xSqaN0JNqIoYj99!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWo0D3uKZj4_Cg2TCLuWACG02pa1HqhiuUACgg-WreSbyFsrHA7Q2DihXoyJq0mH4Amtbi3AxCmN-voP6s5fhBPK_A3YQZxCKrW_95lhatAQA8y13Hm5PgyMWygiM5Mxea9fBbYFjyTHY_8sNVaxcs4NPZbeFWmrFJzj",
+          "widthPx": 1040,
+          "heightPx": 780,
+          "authorAttributions": [
+            {
+              "displayName": "Domino's Pizza",
+              "uri": "https://maps.google.com/maps/contrib/114697113467038482511",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3lyBUW3Potjdwic9gjhico6KU4QisiVDhap6RRQMqyW2R__XE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipONinAGADkp44xKO8AkLAvLfE--DOtE-e5-PAQ6&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipONinAGADkp44xKO8AkLAvLfE--DOtE-e5-PAQ6!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWr-fTzWPBymRJjxoYyztENjJUGA6B3iOD-kYshYgSaa2RxXd6BecB7iLVzZ37oeXcH08-F274G-R4sjsb8Iken1wekiSJr6-JrcDiMJdC-RJIDgDmpfyhmGbjQgz5kr-CHcSLwLM7eb1j9U14bzH9NSOfZROIcqr6EH",
+          "widthPx": 3024,
+          "heightPx": 1881,
+          "authorAttributions": [
+            {
+              "displayName": "Torah Robinson",
+              "uri": "https://maps.google.com/maps/contrib/109411942873499493347",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV3kSslVVAy36_i-7o_9Whd-UGiKjJXg33QZr1d6Rsy1uAZhiI_8w=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipOguHM00WWGyib0avwZHG9jb3ojzK9a1KP0Phxs&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOguHM00WWGyib0avwZHG9jb3ojzK9a1KP0Phxs!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWq-QyALQQVHDy8yx-SoZwwP8SZrfAvMVVkmWOulnKKbwZDmGcjozQ57ggbZNzIXvxp4i1orjwiTAdCLyAo7Iz3MWiaefBOXYt7s3u4J_Nmdw2bhALX_9zKcoNYtLQltgTc13y115KitkiFcZMQUbq48Ji6a9pEjSb3h",
+          "widthPx": 720,
+          "heightPx": 720,
+          "authorAttributions": [
+            {
+              "displayName": "Domino's Pizza",
+              "uri": "https://maps.google.com/maps/contrib/114697113467038482511",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3lyBUW3Potjdwic9gjhico6KU4QisiVDhap6RRQMqyW2R__XE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipPZ0kg_1ZpCFcVC7TLHkhYjDZENvP1Yn4Ce77_c&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPZ0kg_1ZpCFcVC7TLHkhYjDZENvP1Yn4Ce77_c!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWq444kJEefIC4uSFqdkWYnQFi_uqEePIdVG4gbqssypw65ZCZ-M6GSGkwp6fEYuLg6XIHJm8U0WOIblRkuUBldxuKwctBi1ZB4r_AJ5XrNcbmnvBBw1ZulQdyCVl0ljK12x8pG3_YU_dWn951TQxd37Iyo2WsLjQz2i",
+          "widthPx": 720,
+          "heightPx": 720,
+          "authorAttributions": [
+            {
+              "displayName": "Domino's Pizza",
+              "uri": "https://maps.google.com/maps/contrib/114697113467038482511",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3lyBUW3Potjdwic9gjhico6KU4QisiVDhap6RRQMqyW2R__XE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipMR-qPxgL2iu1JRyDlhvz_N0-O5RJX7Rgxqis_q&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMR-qPxgL2iu1JRyDlhvz_N0-O5RJX7Rgxqis_q!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWoEVFFxV0b0GcOQfllOzdO8FNf7Z8Jwx5gpisS-mETSe5ak8L-qdaIbZBAgB2tijCaxnOzTXw888yp2yklClzfYuAIyLQsCc06orkyYyJgOxJefJFjkMk1XkfUzFZU2Tk-yiAuF2hnE5XQsmKd95uPPlDVo3Ej3HwM",
+          "widthPx": 1920,
+          "heightPx": 1080,
+          "authorAttributions": [
+            {
+              "displayName": "Jen W",
+              "uri": "https://maps.google.com/maps/contrib/109406249251391794725",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXepDAq-KOYW8_UACbstFPVB9zFWlQNpPbIsNA2vaU15vROTaJd=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipOQBiu2lvAaIG-iBcqQQDbFR_SWC2eYWohScXA&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOQBiu2lvAaIG-iBcqQQDbFR_SWC2eYWohScXA!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWqgn6gA-IneC9t3c0tP2w_kg28NDY7DR9qzzjlcPTYkWwi0VIxijVc6TzzewPZnhb1MaNCghuqfSa0i3kUu4uCT-f_53mVorSXo1tFwQZmLgIDLq4O1W5lBhDmCzH_2redyINtLY6unhPzdPg4Ji0lilKzs0IwkOW1F",
+          "widthPx": 720,
+          "heightPx": 720,
+          "authorAttributions": [
+            {
+              "displayName": "Domino's Pizza",
+              "uri": "https://maps.google.com/maps/contrib/114697113467038482511",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3lyBUW3Potjdwic9gjhico6KU4QisiVDhap6RRQMqyW2R__XE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNyVla6lHtpSNiobPrQ-exq6n7m3wxUPhOmJw3K&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNyVla6lHtpSNiobPrQ-exq6n7m3wxUPhOmJw3K!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWp6ViDGUENHK0PTeXGIUDm-vi4sfBjyNAZClKJIB_ih3dGDnFxIWfMrFKvTFB6HttQHcuNi4U1RhuRbAehVKTHBnM4Cv6TxvXZcc88htrx_2QpEYPdIJuy4-Mki24fQDQAqO-7no2Lk4WiGU4WId8TbFtMAFSsttXaC",
+          "widthPx": 1920,
+          "heightPx": 1080,
+          "authorAttributions": [
+            {
+              "displayName": "Robert Conatser",
+              "uri": "https://maps.google.com/maps/contrib/111843549648189363039",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLBlAJbfyrBc8gVd5IGJ1SuCc2bzlu5fgLbPVihyHBlWCjkdQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipMUPvqVTWNVRbfyQWO4wO7CgKsPWWA2s-SepWMA&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMUPvqVTWNVRbfyQWO4wO7CgKsPWWA2s-SepWMA!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        },
+        {
+          "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/photos/AdDdOWoU_RVzoai2mmlzjtKPzsEBsfWCbGQj2YE3sN0w-nTgfr86_lPWsWOFEgfECe5FUlZnhcc9t_qaa945GlPJzd2qmgiMZW6Pq3OrJ2UQ_FIW4CaqiNYoT44xOixFTZRV83hkJJb019BpFUAh2fgF5zsB5QC2ewQ2yw7C",
+          "widthPx": 720,
+          "heightPx": 720,
+          "authorAttributions": [
+            {
+              "displayName": "Domino's Pizza",
+              "uri": "https://maps.google.com/maps/contrib/114697113467038482511",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjX3lyBUW3Potjdwic9gjhico6KU4QisiVDhap6RRQMqyW2R__XE=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipMH8I-VTnBi9EXt9pJUgLupwDjkgNnLZjXWPb-5&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMH8I-VTnBi9EXt9pJUgLupwDjkgNnLZjXWPb-5!2e10!4m2!3m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+        }
+      ],
+      "paymentOptions": {
+        "acceptsDebitCards": true,
+        "acceptsNfc": true
+      },
+      "parkingOptions": {
+        "freeParkingLot": true,
+        "freeStreetParking": true
+      },
+      "accessibilityOptions": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true
+      },
+      "generativeSummary": {
+        "overview": {
+          "text": "Pizza delivery chain offering a wide range of pies plus chicken wings and sides, with carryout available.",
+          "languageCode": "en-US"
+        },
+        "description": {
+          "text": "Chain pizza restaurant in the South End providing delivery, takeout, and curbside pickup.\nBesides classic pepperoni pizza, the menu features cheesy pasta, stuffed cheesy bread, flavorful salads, and chicken wings. Tater tots and cakes are also offered, along with local coupons.\nSome reviews mention the nice staff, and the quick service.",
+          "languageCode": "en-US"
+        },
+        "references": {
+          "reviews": [
+            {
+              "name": "places/ChIJYelN8dABkVQRBvvNQk7gSDo/reviews/ChdDSUhNMG9nS0VJQ0FnSURPckpPT3lnRRAB",
+              "relativePublishTimeDescription": "9 months ago",
+              "rating": 1,
+              "text": {
+                "text": "Be careful with the app if you're ordering online... There may be discrepancies between the total amount showed at the end and the charge in your credit card... They won't refund any transaction even if you call immediately after placing the order... Also the manager is very unpolite and unfortunately difficult to communicate with, only offered excuses to justify why they won't refund.. I used to be a regular client, not anymore",
+                "languageCode": "en"
+              },
+              "originalText": {
+                "text": "Be careful with the app if you're ordering online... There may be discrepancies between the total amount showed at the end and the charge in your credit card... They won't refund any transaction even if you call immediately after placing the order... Also the manager is very unpolite and unfortunately difficult to communicate with, only offered excuses to justify why they won't refund.. I used to be a regular client, not anymore",
+                "languageCode": "en"
+              },
+              "authorAttribution": {
+                "displayName": "Anabel Pachano-Arismendi",
+                "uri": "https://www.google.com/maps/contrib/105258948040730751501/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWdXXx5i129KgnE-BKBqfWbRLidcBLtoDq1qhlViyAG_LAKsOebZA=s128-c0x00000000-cc-rp-mo-ba6"
+              },
+              "publishTime": "2024-02-08T02:53:46.456856Z",
+              "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURPckpPT3lnRRAB&d=17924085&t=1",
+              "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURPckpPT3lnRRAB!2m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06"
+            }
+          ]
+        },
+        "overviewFlagContentUri": "https://www.google.com/local/review/rap/report?postId=CiUweDU0OTEwMWQwZjE0ZGU5NjE6MHgzYTQ4ZTA0ZTQyY2RmYjA2MAI&d=17924085&t=12",
+        "descriptionFlagContentUri": "https://www.google.com/local/review/rap/report?postId=CiUweDU0OTEwMWQwZjE0ZGU5NjE6MHgzYTQ4ZTA0ZTQyY2RmYjA2MAM&d=17924085&t=12"
+      },
+      "addressDescriptor": {
+        "landmarks": [
+          {
+            "name": "places/ChIJLf4TJNEBkVQRFRwWIYYHEYU",
+            "placeId": "ChIJLf4TJNEBkVQRFRwWIYYHEYU",
+            "displayName": {
+              "text": "Walgreens",
+              "languageCode": "en"
+            },
+            "types": [
+              "clothing_store",
+              "convenience_store",
+              "drugstore",
+              "establishment",
+              "food",
+              "health",
+              "point_of_interest",
+              "store"
+            ],
+            "straightLineDistanceMeters": 72.867035,
+            "travelDistanceMeters": 74.729256
+          },
+          {
+            "name": "places/ChIJ2bLO_CsBkVQR4du3UCKI-E4",
+            "placeId": "ChIJ2bLO_CsBkVQR4du3UCKI-E4",
+            "displayName": {
+              "text": "Emily's Garage",
+              "languageCode": "en"
+            },
+            "types": ["car_repair", "establishment", "point_of_interest"],
+            "spatialRelationship": "DOWN_THE_ROAD",
+            "straightLineDistanceMeters": 42.805676,
+            "travelDistanceMeters": 50.19263
+          },
+          {
+            "name": "places/ChIJj7s6hNABkVQR2o4bupMFrrM",
+            "placeId": "ChIJj7s6hNABkVQR2o4bupMFrrM",
+            "displayName": {
+              "text": "Extra Space Storage",
+              "languageCode": "en"
+            },
+            "types": [
+              "establishment",
+              "moving_company",
+              "point_of_interest",
+              "storage",
+              "store"
+            ],
+            "straightLineDistanceMeters": 205.45583
+          },
+          {
+            "name": "places/ChIJ_QdCO9EBkVQRjr8IMToaonk",
+            "placeId": "ChIJ_QdCO9EBkVQRjr8IMToaonk",
+            "displayName": {
+              "text": "Umpqua Bank",
+              "languageCode": "en"
+            },
+            "types": ["bank", "establishment", "finance", "point_of_interest"],
+            "straightLineDistanceMeters": 147.59814,
+            "travelDistanceMeters": 215.62817
+          },
+          {
+            "name": "places/ChIJu0b7H-r_kFQR4GtEoDHeof8",
+            "placeId": "ChIJu0b7H-r_kFQR4GtEoDHeof8",
+            "displayName": {
+              "text": "Papa Murphy's | Take 'N' Bake Pizza",
+              "languageCode": "en"
+            },
+            "types": [
+              "establishment",
+              "food",
+              "meal_takeaway",
+              "point_of_interest",
+              "restaurant"
+            ],
+            "straightLineDistanceMeters": 192.9223,
+            "travelDistanceMeters": 239.51018
+          }
+        ],
+        "areas": [
+          {
+            "name": "places/ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "placeId": "ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "displayName": {
+              "text": "South End",
+              "languageCode": "en"
+            },
+            "containment": "WITHIN"
+          }
+        ]
+      },
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x549101d0f14de961:0x3a48e04e42cdfb06!3e0",
+        "placeUri": "https://maps.google.com/?cid=4199853279255853830",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101d0f14de961:0x3a48e04e42cdfb06!12e1",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x549101d0f14de961:0x3a48e04e42cdfb06!9m1!1b1",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101d0f14de961:0x3a48e04e42cdfb06!10e5"
+      },
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      }
+    },
+    {
+      "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ",
+      "id": "ChIJl-ggLtEBkVQRi7h-8s9HeLQ",
+      "types": [
+        "convenience_store",
+        "atm",
+        "supermarket",
+        "gas_station",
+        "fast_food_restaurant",
+        "grocery_store",
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "finance",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "nationalPhoneNumber": "(253) 474-5348",
+      "internationalPhoneNumber": "+1 253-474-5348",
+      "formattedAddress": "8247 Pacific Ave, Tacoma, WA 98408, USA",
+      "addressComponents": [
+        {
+          "longText": "8247",
+          "shortText": "8247",
+          "types": ["street_number"],
+          "languageCode": "en-US"
+        },
+        {
+          "longText": "Pacific Avenue",
+          "shortText": "Pacific Ave",
+          "types": ["route"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "South End",
+          "shortText": "South End",
+          "types": ["neighborhood", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Tacoma",
+          "shortText": "Tacoma",
+          "types": ["locality", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Pierce County",
+          "shortText": "Pierce County",
+          "types": ["administrative_area_level_2", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Washington",
+          "shortText": "WA",
+          "types": ["administrative_area_level_1", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "United States",
+          "shortText": "US",
+          "types": ["country", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "98408",
+          "shortText": "98408",
+          "types": ["postal_code"],
+          "languageCode": "en-US"
+        }
+      ],
+      "plusCode": {
+        "globalCode": "84VV5HJ8+GH",
+        "compoundCode": "5HJ8+GH Tacoma, WA, USA"
+      },
+      "location": {
+        "latitude": 47.181331899999996,
+        "longitude": -122.4335527
+      },
+      "viewport": {
+        "low": {
+          "latitude": 47.179818819708494,
+          "longitude": -122.43516078029147
+        },
+        "high": {
+          "latitude": 47.182516780291493,
+          "longitude": -122.43246281970849
+        }
+      },
+      "rating": 3.3,
+      "googleMapsUri": "https://maps.google.com/?cid=13004222882484500619",
+      "websiteUri": "https://www.ampm.com/",
+      "regularOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "utcOffsetMinutes": -480,
+      "adrFormatAddress": "<span class=\"street-address\">8247 Pacific Ave</span>, <span class=\"locality\">Tacoma</span>, <span class=\"region\">WA</span> <span class=\"postal-code\">98408</span>, <span class=\"country-name\">USA</span>",
+      "businessStatus": "OPERATIONAL",
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "userRatingCount": 33,
+      "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/convenience_pinlet",
+      "iconBackgroundColor": "#4B96F3",
+      "displayName": {
+        "text": "ampm",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Convenience Store",
+        "languageCode": "en-US"
+      },
+      "delivery": false,
+      "curbsidePickup": false,
+      "currentOpeningHours": {
+        "openNow": true,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0,
+              "truncated": true,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 59,
+              "truncated": true,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Open 24 hours",
+          "Tuesday: Open 24 hours",
+          "Wednesday: Open 24 hours",
+          "Thursday: Open 24 hours",
+          "Friday: Open 24 hours",
+          "Saturday: Open 24 hours",
+          "Sunday: Open 24 hours"
+        ]
+      },
+      "primaryType": "convenience_store",
+      "shortFormattedAddress": "8247 Pacific Ave, Tacoma",
+      "editorialSummary": {
+        "text": "Convenience-store chain serving coffee drinks, donuts, hot dogs, burgers & other basic eats.",
+        "languageCode": "en"
+      },
+      "reviews": [
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/reviews/ChdDSUhNMG9nS0VJQ0FnSURKMmNQT3B3RRAB",
+          "relativePublishTimeDescription": "a year ago",
+          "rating": 1,
+          "text": {
+            "text": "Closes from 9:50-10:15 during a shift change. I guess they aren’t willing to pay their employees to overlap shifts. Around 15 cars came to get gas an left because they shut the pumps off during this time. That lost profit would definitely cover 30 minutes to overlap shifts.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Closes from 9:50-10:15 during a shift change. I guess they aren’t willing to pay their employees to overlap shifts. Around 15 cars came to get gas an left because they shut the pumps off during this time. That lost profit would definitely cover 30 minutes to overlap shifts.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Nick",
+            "uri": "https://www.google.com/maps/contrib/112094536586591768599/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVQ6qxGkepDzknQ_OdV_UXwl6wI_B1G207Da4XsgHn3QxwF3Xwn=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2023-07-20T05:09:57.910838Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURKMmNQT3B3RRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURKMmNQT3B3RRAB!2m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        },
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/reviews/ChdDSUhNMG9nS0VJQ0FnSURBNy1xZDZRRRAB",
+          "relativePublishTimeDescription": "7 years ago",
+          "rating": 3,
+          "text": {
+            "text": "Can be a little intimidating after dark with some of the people hanging around.  Depending on the staff working late night, there can be a lot of sketchy people hanging out and playing loud music in front of the store. There has been times where as a female by myself, I felt a little uncomfortable as I was waiting in line and pumping my gas because of the people standing around and bumming money or cigarettes and at times cat calling. There has been a few times where they have closed the store for a half hour or more when they were doing a shift change at night and there a few night staff that are slow to help the customers and make you feel like you are inconveniencing them by wanting to get gas.  The price is usually comparable to other places around, sometimes cheaper, sometimes not.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Can be a little intimidating after dark with some of the people hanging around.  Depending on the staff working late night, there can be a lot of sketchy people hanging out and playing loud music in front of the store. There has been times where as a female by myself, I felt a little uncomfortable as I was waiting in line and pumping my gas because of the people standing around and bumming money or cigarettes and at times cat calling. There has been a few times where they have closed the store for a half hour or more when they were doing a shift change at night and there a few night staff that are slow to help the customers and make you feel like you are inconveniencing them by wanting to get gas.  The price is usually comparable to other places around, sometimes cheaper, sometimes not.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Rebecca Peterson",
+            "uri": "https://www.google.com/maps/contrib/104513089603217428632/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV301jLfcUiuTaOAK5et6i8qFWGNfsBDx7pknHGT3G-l_Mg29KDTw=s128-c0x00000000-cc-rp-mo-ba5"
+          },
+          "publishTime": "2017-07-25T08:46:11.642Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURBNy1xZDZRRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURBNy1xZDZRRRAB!2m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        },
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/reviews/ChZDSUhNMG9nS0VJQ0FnSUNzMnFlTkJBEAE",
+          "relativePublishTimeDescription": "4 years ago",
+          "rating": 5,
+          "text": {
+            "text": "The store is looking great full inventory and all employee are friendly clean well no other people hangout out side I won to know all customers store  use the window between 10pm to 6am Mon-sun am/pm tomuch good stuff",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "The store is looking great full inventory and all employee are friendly clean well no other people hangout out side I won to know all customers store  use the window between 10pm to 6am Mon-sun am/pm tomuch good stuff",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Daniel Kifle",
+            "uri": "https://www.google.com/maps/contrib/102424201804162569183/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLGYxKqJJ3-cDeGxI0aAEhckzBkf5FkjmDYEW77ABmm3k9sAYU=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2020-01-29T21:39:09.598636Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUNzMnFlTkJBEAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUNzMnFlTkJBEAE!2m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        },
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/reviews/ChdDSUhNMG9nS0VJQ0FnSUNBLWJLMjZ3RRAB",
+          "relativePublishTimeDescription": "7 years ago",
+          "rating": 5,
+          "text": {
+            "text": "This is the cheapest gas station in Tacoma, I swear. Its always at least 10-15 cents cheaper than everywhere else. Service is always friendly. Outside cash-pay machines go down sometimes.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "This is the cheapest gas station in Tacoma, I swear. Its always at least 10-15 cents cheaper than everywhere else. Service is always friendly. Outside cash-pay machines go down sometimes.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Sandy DeWitt",
+            "uri": "https://www.google.com/maps/contrib/116130378886926373006/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKkVUSdZwfZEHNq38TcZrdcxOHS6Rl9ioMUZYHGuQufVcPZBA=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2017-03-08T11:17:30.145Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNBLWJLMjZ3RRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNBLWJLMjZ3RRAB!2m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        },
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/reviews/ChdDSUhNMG9nS0VJQ0FnSURnOU8yQ3NRRRAB",
+          "relativePublishTimeDescription": "7 years ago",
+          "rating": 1,
+          "text": {
+            "text": "Racist morning crew the girl of color at the register told me that American money was no good there she did not want the 10.00 in quaters that where in a roll in her till. Was it because I'm white and old? For what ever reason it is not acceptable. This should not be allowed in a public business.\n.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Racist morning crew the girl of color at the register told me that American money was no good there she did not want the 10.00 in quaters that where in a roll in her till. Was it because I'm white and old? For what ever reason it is not acceptable. This should not be allowed in a public business.\n.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "don meloy",
+            "uri": "https://www.google.com/maps/contrib/107051443802727916962/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJxaGAoGLQs5X69gojULGQEu1Hva3RX2UZBzDTsoFsBa9iyFg=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2017-01-30T17:47:49.588Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURnOU8yQ3NRRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURnOU8yQ3NRRRAB!2m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/photos/AdDdOWrOW_8Y6HztMR4rsU69_-G1b6tEtiDnlektFub43rsFS-_x_KW7AQ7MJtTgH19bev3EnEqqSImh6ff5cZSWkFXRSOJCE_sQoOn5YC6d0zeIqy2kUjKU7u2lKUJB5Aq1CHzZOUXLNb4hPyggx5Q4EDsgrAjjwOwArPfl",
+          "widthPx": 863,
+          "heightPx": 490,
+          "authorAttributions": [
+            {
+              "displayName": "ampm",
+              "uri": "https://maps.google.com/maps/contrib/113530654224989982515",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVBBO4-Poyhxm6XKOjXueK_Ui08GsaPlgE2uHWSbDq2sYEquyvW=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipOkuQVXx4sTddongpN8bk19b67AET6Q1OoORCk0&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOkuQVXx4sTddongpN8bk19b67AET6Q1OoORCk0!2e10!4m2!3m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        },
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/photos/AdDdOWoZo9qr3mLGV-s4WJwOj4ibOo09QE02UsdFrS6vnr6xRwuAV2DouwLkXOEHAk-JzSAIW9nBFjIdfFAEownE9PQw5DD1l5-SCYxHxHstA3RyIzpAHUbdaj-nqktjA1jVYBi-XQYv1uBx-wEacseLuV6CgVQaSTBdBqdw",
+          "widthPx": 1600,
+          "heightPx": 900,
+          "authorAttributions": [
+            {
+              "displayName": "ampm",
+              "uri": "https://maps.google.com/maps/contrib/113530654224989982515",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVBBO4-Poyhxm6XKOjXueK_Ui08GsaPlgE2uHWSbDq2sYEquyvW=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipPUzNwSgq0Lyi2lS02YfrmkI12fG2AVvSdtFF3d&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPUzNwSgq0Lyi2lS02YfrmkI12fG2AVvSdtFF3d!2e10!4m2!3m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        },
+        {
+          "name": "places/ChIJl-ggLtEBkVQRi7h-8s9HeLQ/photos/AdDdOWrGSaCNZsKfexFV_znCcP7kzmO3T3VxnQ9ajh7acY4jMkkmMgWey2s-jsED9-0BxnG3w4CE-RZtss0LMDEhn7a-co9MePSs8aX0CLk9gwpxJvKIWGd3xWkAn9X9bp46vgEm0q_ati9TW5ToP2GgPZjwdtwug1m5KW_m",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Anonymous A",
+              "uri": "https://maps.google.com/maps/contrib/100885080090990024311",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLUtt7ry4ZxPGYLxfmdGoHEfLucc_qVP5WYRL5WV9mNGA_JHw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipN5IJmT6EBn3vtwcw5gNbcsYwh8MlnXDTTOJKQL&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN5IJmT6EBn3vtwcw5gNbcsYwh8MlnXDTTOJKQL!2e10!4m2!3m1!1s0x549101d12e20e897:0xb47847cff27eb88b"
+        }
+      ],
+      "restroom": true,
+      "paymentOptions": {
+        "acceptsCreditCards": true,
+        "acceptsCashOnly": false
+      },
+      "parkingOptions": {
+        "freeParkingLot": true,
+        "paidStreetParking": false
+      },
+      "accessibilityOptions": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true
+      },
+      "addressDescriptor": {
+        "landmarks": [
+          {
+            "name": "places/ChIJ35MMttYBkVQRLVEN_OOIn0Q",
+            "placeId": "ChIJ35MMttYBkVQRLVEN_OOIn0Q",
+            "displayName": {
+              "text": "Arco",
+              "languageCode": "en"
+            },
+            "types": ["establishment", "gas_station", "point_of_interest"],
+            "spatialRelationship": "BESIDE",
+            "straightLineDistanceMeters": 16.114428,
+            "travelDistanceMeters": 134.13968
+          },
+          {
+            "name": "places/ChIJu0b7H-r_kFQR4GtEoDHeof8",
+            "placeId": "ChIJu0b7H-r_kFQR4GtEoDHeof8",
+            "displayName": {
+              "text": "Papa Murphy's | Take 'N' Bake Pizza",
+              "languageCode": "en"
+            },
+            "types": [
+              "establishment",
+              "food",
+              "meal_takeaway",
+              "point_of_interest",
+              "restaurant"
+            ],
+            "straightLineDistanceMeters": 37.904022,
+            "travelDistanceMeters": 97.76762
+          },
+          {
+            "name": "places/ChIJ_QdCO9EBkVQRjr8IMToaonk",
+            "placeId": "ChIJ_QdCO9EBkVQRjr8IMToaonk",
+            "displayName": {
+              "text": "Umpqua Bank",
+              "languageCode": "en"
+            },
+            "types": ["bank", "establishment", "finance", "point_of_interest"],
+            "straightLineDistanceMeters": 64.44871,
+            "travelDistanceMeters": 178.27716
+          },
+          {
+            "name": "places/ChIJLf4TJNEBkVQRFRwWIYYHEYU",
+            "placeId": "ChIJLf4TJNEBkVQRFRwWIYYHEYU",
+            "displayName": {
+              "text": "Walgreens",
+              "languageCode": "en"
+            },
+            "types": [
+              "clothing_store",
+              "convenience_store",
+              "drugstore",
+              "establishment",
+              "food",
+              "health",
+              "point_of_interest",
+              "store"
+            ],
+            "straightLineDistanceMeters": 119.61341,
+            "travelDistanceMeters": 189.47997
+          },
+          {
+            "name": "places/ChIJy0ySONIBkVQRCpHTLPEsi4E",
+            "placeId": "ChIJy0ySONIBkVQRCpHTLPEsi4E",
+            "displayName": {
+              "text": "Hasune’s Barbershop",
+              "languageCode": "en"
+            },
+            "types": [
+              "beauty_salon",
+              "establishment",
+              "hair_care",
+              "health",
+              "point_of_interest"
+            ],
+            "spatialRelationship": "AROUND_THE_CORNER",
+            "straightLineDistanceMeters": 60.763416,
+            "travelDistanceMeters": 39.03966
+          }
+        ],
+        "areas": [
+          {
+            "name": "places/ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "placeId": "ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "displayName": {
+              "text": "South End",
+              "languageCode": "en"
+            },
+            "containment": "WITHIN"
+          }
+        ]
+      },
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x549101d12e20e897:0xb47847cff27eb88b!3e0",
+        "placeUri": "https://maps.google.com/?cid=13004222882484500619",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101d12e20e897:0xb47847cff27eb88b!12e1",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x549101d12e20e897:0xb47847cff27eb88b!9m1!1b1",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101d12e20e897:0xb47847cff27eb88b!10e5"
+      }
+    },
+    {
+      "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU",
+      "id": "ChIJaSSeXesBkVQR8CXOGLqjFkU",
+      "types": [
+        "restaurant",
+        "mexican_restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "nationalPhoneNumber": "(253) 537-4443",
+      "internationalPhoneNumber": "+1 253-537-4443",
+      "formattedAddress": "9002 Pacific Ave, Tacoma, WA 98444, USA",
+      "addressComponents": [
+        {
+          "longText": "9002",
+          "shortText": "9002",
+          "types": ["street_number"],
+          "languageCode": "en-US"
+        },
+        {
+          "longText": "Pacific Avenue",
+          "shortText": "Pacific Ave",
+          "types": ["route"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "South End",
+          "shortText": "South End",
+          "types": ["neighborhood", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Tacoma",
+          "shortText": "Tacoma",
+          "types": ["locality", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Pierce County",
+          "shortText": "Pierce County",
+          "types": ["administrative_area_level_2", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Washington",
+          "shortText": "WA",
+          "types": ["administrative_area_level_1", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "United States",
+          "shortText": "US",
+          "types": ["country", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "98444",
+          "shortText": "98444",
+          "types": ["postal_code"],
+          "languageCode": "en-US"
+        }
+      ],
+      "plusCode": {
+        "globalCode": "84VV5HG8+27",
+        "compoundCode": "5HG8+27 Tacoma, WA, USA"
+      },
+      "location": {
+        "latitude": 47.1750219,
+        "longitude": -122.4343248
+      },
+      "viewport": {
+        "low": {
+          "latitude": 47.173653769708494,
+          "longitude": -122.43556013029149
+        },
+        "high": {
+          "latitude": 47.176351730291493,
+          "longitude": -122.4328621697085
+        }
+      },
+      "rating": 4,
+      "googleMapsUri": "https://maps.google.com/?cid=4978346457780069872",
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 10:00 PM",
+          "Tuesday: 10:00 AM – 10:00 PM",
+          "Wednesday: 10:00 AM – 10:00 PM",
+          "Thursday: 10:00 AM – 10:00 PM",
+          "Friday: 10:00 AM – 10:00 PM",
+          "Saturday: 10:00 AM – 10:00 PM",
+          "Sunday: 10:00 AM – 9:00 PM"
+        ],
+        "nextOpenTime": "2024-11-18T18:00:00Z"
+      },
+      "utcOffsetMinutes": -480,
+      "adrFormatAddress": "<span class=\"street-address\">9002 Pacific Ave</span>, <span class=\"locality\">Tacoma</span>, <span class=\"region\">WA</span> <span class=\"postal-code\">98444</span>, <span class=\"country-name\">USA</span>",
+      "businessStatus": "OPERATIONAL",
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "userRatingCount": 327,
+      "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "iconBackgroundColor": "#FF9E67",
+      "displayName": {
+        "text": "Restaurant El Charrito 2",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Restaurant",
+        "languageCode": "en-US"
+      },
+      "takeout": true,
+      "delivery": true,
+      "dineIn": true,
+      "curbsidePickup": true,
+      "reservable": true,
+      "servesBeer": true,
+      "servesWine": true,
+      "currentOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 21,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 1,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 18
+              }
+            },
+            "close": {
+              "day": 1,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 18
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 2,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 19
+              }
+            },
+            "close": {
+              "day": 2,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 19
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 3,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 20
+              }
+            },
+            "close": {
+              "day": 3,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 20
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 4,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 21
+              }
+            },
+            "close": {
+              "day": 4,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 21
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 22
+              }
+            },
+            "close": {
+              "day": 5,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 22
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 10,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 22,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: 10:00 AM – 10:00 PM",
+          "Tuesday: 10:00 AM – 10:00 PM",
+          "Wednesday: 10:00 AM – 10:00 PM",
+          "Thursday: 10:00 AM – 10:00 PM",
+          "Friday: 10:00 AM – 10:00 PM",
+          "Saturday: 10:00 AM – 10:00 PM",
+          "Sunday: 10:00 AM – 9:00 PM"
+        ],
+        "nextOpenTime": "2024-11-18T18:00:00Z"
+      },
+      "currentSecondaryOpeningHours": [
+        {
+          "openNow": false,
+          "periods": [
+            {
+              "open": {
+                "day": 1,
+                "hour": 15,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 18
+                }
+              },
+              "close": {
+                "day": 1,
+                "hour": 17,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 18
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 2,
+                "hour": 15,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 19
+                }
+              },
+              "close": {
+                "day": 2,
+                "hour": 17,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 19
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 3,
+                "hour": 15,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 20
+                }
+              },
+              "close": {
+                "day": 3,
+                "hour": 17,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 20
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 4,
+                "hour": 15,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 21
+                }
+              },
+              "close": {
+                "day": 4,
+                "hour": 17,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 21
+                }
+              }
+            },
+            {
+              "open": {
+                "day": 5,
+                "hour": 15,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 22
+                }
+              },
+              "close": {
+                "day": 5,
+                "hour": 17,
+                "minute": 0,
+                "date": {
+                  "year": 2024,
+                  "month": 11,
+                  "day": 22
+                }
+              }
+            }
+          ],
+          "weekdayDescriptions": [
+            "Monday: 3:00 – 5:00 PM",
+            "Tuesday: 3:00 – 5:00 PM",
+            "Wednesday: 3:00 – 5:00 PM",
+            "Thursday: 3:00 – 5:00 PM",
+            "Friday: 3:00 – 5:00 PM",
+            "Saturday: Closed",
+            "Sunday: Closed"
+          ],
+          "secondaryHoursType": "HAPPY_HOUR",
+          "nextOpenTime": "2024-11-18T23:00:00Z"
+        }
+      ],
+      "regularSecondaryOpeningHours": [
+        {
+          "openNow": false,
+          "periods": [
+            {
+              "open": {
+                "day": 1,
+                "hour": 15,
+                "minute": 0
+              },
+              "close": {
+                "day": 1,
+                "hour": 17,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 2,
+                "hour": 15,
+                "minute": 0
+              },
+              "close": {
+                "day": 2,
+                "hour": 17,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 3,
+                "hour": 15,
+                "minute": 0
+              },
+              "close": {
+                "day": 3,
+                "hour": 17,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 4,
+                "hour": 15,
+                "minute": 0
+              },
+              "close": {
+                "day": 4,
+                "hour": 17,
+                "minute": 0
+              }
+            },
+            {
+              "open": {
+                "day": 5,
+                "hour": 15,
+                "minute": 0
+              },
+              "close": {
+                "day": 5,
+                "hour": 17,
+                "minute": 0
+              }
+            }
+          ],
+          "weekdayDescriptions": [
+            "Monday: 3:00 – 5:00 PM",
+            "Tuesday: 3:00 – 5:00 PM",
+            "Wednesday: 3:00 – 5:00 PM",
+            "Thursday: 3:00 – 5:00 PM",
+            "Friday: 3:00 – 5:00 PM",
+            "Saturday: Closed",
+            "Sunday: Closed"
+          ],
+          "secondaryHoursType": "HAPPY_HOUR",
+          "nextOpenTime": "2024-11-18T23:00:00Z"
+        }
+      ],
+      "primaryType": "restaurant",
+      "shortFormattedAddress": "9002 Pacific Ave, Tacoma",
+      "reviews": [
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/reviews/ChdDSUhNMG9nS0VJQ0FnSUNycXBMam9RRRAB",
+          "relativePublishTimeDescription": "4 months ago",
+          "rating": 4,
+          "text": {
+            "text": "The reviews on quality and slower service aren't wrong. The staff was slow but very nice. The beef flautas were decent, one was pretty dry and chewy. The rice was pretty tasty. The chicken mole had a nice earthy taste. It wasn't my favorite, but it has a unique flavor. The salsa for the chips was good. The fruit punch for the home made drinks reminded me of eating a jolly rancher. The real appeal is the atmosphere. I haven't been in a Mexican restaurant on the east side that was that thoughtful and interesting for its decor. I'd definitely come for drinks here. The mixed drink I had was weak.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "The reviews on quality and slower service aren't wrong. The staff was slow but very nice. The beef flautas were decent, one was pretty dry and chewy. The rice was pretty tasty. The chicken mole had a nice earthy taste. It wasn't my favorite, but it has a unique flavor. The salsa for the chips was good. The fruit punch for the home made drinks reminded me of eating a jolly rancher. The real appeal is the atmosphere. I haven't been in a Mexican restaurant on the east side that was that thoughtful and interesting for its decor. I'd definitely come for drinks here. The mixed drink I had was weak.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Mark Nickel",
+            "uri": "https://www.google.com/maps/contrib/101998051647511715376/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWGEC_Lldq3XOV-EAMVPpFllPydUmz6ZKYmpLbN0PZltBp-FaOQiw=s128-c0x00000000-cc-rp-mo-ba6"
+          },
+          "publishTime": "2024-07-06T00:03:39.511204Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNycXBMam9RRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNycXBMam9RRRAB!2m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/reviews/ChZDSUhNMG9nS0VJQ0FnSURobV9pZktREAE",
+          "relativePublishTimeDescription": "a year ago",
+          "rating": 5,
+          "text": {
+            "text": "I paid $40 TOTAL for this meal....the Mocajete is the PLATE TO GET!!! Everything was cooked to PERFECTION 👌\nI'll be bringing My whole family back to eat here!!!\nSUPER clean restaurant,  and DELICIOUS fresh made Juices!!!\nI literally ate all day it is SO MUCH FOOD!!!\n\nThey are blue friendly 💙 judging by their lunch crowd which I appreciate, that means they have a safe environment as well!!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "I paid $40 TOTAL for this meal....the Mocajete is the PLATE TO GET!!! Everything was cooked to PERFECTION 👌\nI'll be bringing My whole family back to eat here!!!\nSUPER clean restaurant,  and DELICIOUS fresh made Juices!!!\nI literally ate all day it is SO MUCH FOOD!!!\n\nThey are blue friendly 💙 judging by their lunch crowd which I appreciate, that means they have a safe environment as well!!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Brittany DuarteCerna",
+            "uri": "https://www.google.com/maps/contrib/116236577947243703942/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI2Ikcv06yX4dejel6OfdLh_Tooi9l-Eqm-D0uHXyRekX1n7Q=s128-c0x00000000-cc-rp-mo-ba5"
+          },
+          "publishTime": "2023-09-20T03:55:53.923081Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURobV9pZktREAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURobV9pZktREAE!2m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/reviews/ChdDSUhNMG9nS0VJQ0FnSUN4MGZyeTR3RRAB",
+          "relativePublishTimeDescription": "a year ago",
+          "rating": 4,
+          "text": {
+            "text": "The staff is amazing and they're nice and they're always on time then fast at refilling the dreams and they're fast at making the food I absolutely love coming here with my family I can't wait to come back to try new items off the menu",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "The staff is amazing and they're nice and they're always on time then fast at refilling the dreams and they're fast at making the food I absolutely love coming here with my family I can't wait to come back to try new items off the menu",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Toni Martinez",
+            "uri": "https://www.google.com/maps/contrib/109283160545198532403/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJKc3w7_bXszzHszJWnv7mWytEltZTjt0f9C63wA-TI9eh6vQ=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2023-05-19T19:06:06.343393Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUN4MGZyeTR3RRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUN4MGZyeTR3RRAB!2m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/reviews/ChdDSUhNMG9nS0VJQ0FnSURVcHB2RS13RRAB",
+          "relativePublishTimeDescription": "5 years ago",
+          "rating": 3,
+          "text": {
+            "text": "Nothing to write home about. I just bought a house about a mile or so down the road. Every time I drive by their business looks busy so I was super excited to come in and try the food. Mexican food is my favorite!\nThe menu is big, a few pages in fact. And I am probably the most indecisive person known to any server. I definitely wanted to try something I have never had before but couldn't decide what sounded the best. Descriptions are fairly basic so that wasn't helping me decide either. My boyfriend and I decided to start with drinks. He got a margarita and I got a tequila sunset (not sunrise). I was excited because I don't know many places that can make them since they call for a blackberry liqueur in the recipes I am familiar with. The margarita was very sweet. Tasty but sweet. The sunset looked like a tequila orange juice and kinda tasted like it too. I didn't watch them make it, so I can't say exactly how it was assembled. When the waitress returned (very nice girl), I asked her for suggestions. She suggested the burrito. 😔Not what I was hoping to hear, but I love burritos so if the staff likes them I guess I will go for it. Both my boyfriend and I get wet burritos. Mine with the seasoned pork and his the carne asada. They are big and hot when they come out. My boyfriend immediately comments on the lack of rice and beans that the menu stated it came with, and I suggest they might be inside. They were. I feel like the flavor is really good on the meat but that it is a bit dry. I also like the bite size pieces that they are cut into. There is a good amount of pork stuffed into my burrito, but again it is a bit dry. My boyfriend is not happy with his. He doesn't like the flavor or that everything about his wet burritos is dry. I tend to agree. I tasted just a bite of the steak in his as well and it had almost no flavor. He agreed that mine was better seasoned. The highlight of the meal was my Grandeza Margarita. It was a better balance of sweet, sour and booze than the other cocktails we got.",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Nothing to write home about. I just bought a house about a mile or so down the road. Every time I drive by their business looks busy so I was super excited to come in and try the food. Mexican food is my favorite!\nThe menu is big, a few pages in fact. And I am probably the most indecisive person known to any server. I definitely wanted to try something I have never had before but couldn't decide what sounded the best. Descriptions are fairly basic so that wasn't helping me decide either. My boyfriend and I decided to start with drinks. He got a margarita and I got a tequila sunset (not sunrise). I was excited because I don't know many places that can make them since they call for a blackberry liqueur in the recipes I am familiar with. The margarita was very sweet. Tasty but sweet. The sunset looked like a tequila orange juice and kinda tasted like it too. I didn't watch them make it, so I can't say exactly how it was assembled. When the waitress returned (very nice girl), I asked her for suggestions. She suggested the burrito. 😔Not what I was hoping to hear, but I love burritos so if the staff likes them I guess I will go for it. Both my boyfriend and I get wet burritos. Mine with the seasoned pork and his the carne asada. They are big and hot when they come out. My boyfriend immediately comments on the lack of rice and beans that the menu stated it came with, and I suggest they might be inside. They were. I feel like the flavor is really good on the meat but that it is a bit dry. I also like the bite size pieces that they are cut into. There is a good amount of pork stuffed into my burrito, but again it is a bit dry. My boyfriend is not happy with his. He doesn't like the flavor or that everything about his wet burritos is dry. I tend to agree. I tasted just a bite of the steak in his as well and it had almost no flavor. He agreed that mine was better seasoned. The highlight of the meal was my Grandeza Margarita. It was a better balance of sweet, sour and booze than the other cocktails we got.",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Ashlee Bishop",
+            "uri": "https://www.google.com/maps/contrib/110869057866494090781/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW52FBoI1_Yu1SUjTtGg33_9bIqo2CKWeWAh23nqXyWQcArDSx_=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2019-08-22T02:13:21.484282Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURVcHB2RS13RRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURVcHB2RS13RRAB!2m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/reviews/ChZDSUhNMG9nS0VJQ0FnSURDNGVEQmNnEAE",
+          "relativePublishTimeDescription": "4 years ago",
+          "rating": 2,
+          "text": {
+            "text": "I have bought food here about 3 times, and the third time I got 4 tamales to go. When I got home to eat my tamales, they were so dry and with a color that looked so old. I honestly couldn't eat those tamales. I don't understand how they even dared to sell those tamales that old. It was so disappointing!",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "I have bought food here about 3 times, and the third time I got 4 tamales to go. When I got home to eat my tamales, they were so dry and with a color that looked so old. I honestly couldn't eat those tamales. I don't understand how they even dared to sell those tamales that old. It was so disappointing!",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Kenia Stanford",
+            "uri": "https://www.google.com/maps/contrib/104803051703165179824/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWbU5wofUhip1r2IpmUxP_F0VrzDubkBoEJ5-1euUxL9Z9x5dFB=s128-c0x00000000-cc-rp-mo-ba5"
+          },
+          "publishTime": "2020-09-30T07:46:49.187738Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURDNGVEQmNnEAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURDNGVEQmNnEAE!2m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWpDZLSuhLmr4_HMYbaTpN3BYH0cA3Y2i2zBk1BUsDlSP0cwS92qJHJJxLutfEQoBfjjMY1EiHpljVT7tttZUqlp13OK7Sk05WQlQpWxKO3OqByQqLebVKU36TA5A0eHX_ig57YFzAB3kieeN96I6gRJYduMmDvTL461",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "Restaurant El Charrito 2",
+              "uri": "https://maps.google.com/maps/contrib/104634424613582172942",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKmvOfG-BsccNNP9GG3MaHxVlULyP3LD-xtCfskRhW47c4KLw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipPCvbAqj8BkK38RWZWvrnhwcdS20qvGvsIfQdAo&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPCvbAqj8BkK38RWZWvrnhwcdS20qvGvsIfQdAo!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWrvLUtfJa0UrHQzR9nT0Q3XF_mnpVe1kWtMFPqttkmUrBSFqaBM8ghBJFpLe8CbCYRnfJ4Dj64IQjtanJhwK0mXMhwlbN81wu99XsMsPRiSNYCaZ_Tx5eqiMqtvwZ3VHWlWXHFqA8RTb0GfB3eHye6ijgvvllLgpmrP",
+          "widthPx": 1322,
+          "heightPx": 991,
+          "authorAttributions": [
+            {
+              "displayName": "Restaurant El Charrito 2",
+              "uri": "https://maps.google.com/maps/contrib/104634424613582172942",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKmvOfG-BsccNNP9GG3MaHxVlULyP3LD-xtCfskRhW47c4KLw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipMh41LiFFqkFzsKi5aH8ZmQHXU46_040K_bZlsi&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMh41LiFFqkFzsKi5aH8ZmQHXU46_040K_bZlsi!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWqRXnmWPkNHCDIFKzrP4tsc2FtldqayxmPtPDWg0jb8xS7YRArKWl2vjbLGa80JqwYcFFEPw2yYO_EkOxF58C6dclhMJ2Kcp_nWEqB6ZBFU3IkEdYTEQ3DuIMch4MJSTCidCKZcQe7E0L3n1VjudhfO0lp8xzSqHwoh",
+          "widthPx": 4032,
+          "heightPx": 3024,
+          "authorAttributions": [
+            {
+              "displayName": "Cesar Luna",
+              "uri": "https://maps.google.com/maps/contrib/106309049195581058315",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV25N3m0pgtDvLpNO9ohXUST1r-J8Vearcxl916PNxnRdApqiBt=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNwEKNN0q3YBvJzOqRJGT6iC3b8QETT2fJ3iviO&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNwEKNN0q3YBvJzOqRJGT6iC3b8QETT2fJ3iviO!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWr9dD-v-kgdDGG-D6XbyB0WKOGuH32dERFZomLTS4bagHOlp-NtNenAxnZTBQHM-GUu8NlEC1vkqbeyGF9RmaBimRkFbcVHLumOvyBt6CifKGJSKz_4uRk5uWqTOYhoUSefHz6BuYpso9Nuep_oh_sEA9WwrDttdZmc",
+          "widthPx": 3120,
+          "heightPx": 4160,
+          "authorAttributions": [
+            {
+              "displayName": "Toni Martinez",
+              "uri": "https://maps.google.com/maps/contrib/109283160545198532403",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJKc3w7_bXszzHszJWnv7mWytEltZTjt0f9C63wA-TI9eh6vQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipObBivNeHkn2ob8RxKAqlh1d7zsx1LdIZJ2hELj&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipObBivNeHkn2ob8RxKAqlh1d7zsx1LdIZJ2hELj!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWocRFw-rrbjDIpxe2xvT54VjCvY0tFBG8vtnBI9_TnAaQQ63-oLAAt1GmjLvzVkkL1-yKm6eDmgyDGwVuhX3L2UPwykcwa1QXezDAKwYOPiKlfkZhHoiXAVLE-dLV7v-H06QQjY6kPpK0vB83AazyUmrhJsw8lhau7o",
+          "widthPx": 4080,
+          "heightPx": 3060,
+          "authorAttributions": [
+            {
+              "displayName": "Mark Nickel",
+              "uri": "https://maps.google.com/maps/contrib/101998051647511715376",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWGEC_Lldq3XOV-EAMVPpFllPydUmz6ZKYmpLbN0PZltBp-FaOQiw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipPtdDlgHBQtdsb73ja7rdXlXHUd-9I7LGGBdUmd&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPtdDlgHBQtdsb73ja7rdXlXHUd-9I7LGGBdUmd!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWp2076qheCqsxEaTOWxUYWQU7AlzYDenUGZpQbVQyCn00liq4s1KWRz2FOCmfwzlJGwKeoXbNDYPAlwyd1izZrcjn4kIAI-fzxeaj0t8BEJSoX7k6AZhavJWGGGvf4I9xO54BQnKR1YNEgwQfZBKFIjtuTLRyZisET-",
+          "widthPx": 4160,
+          "heightPx": 3120,
+          "authorAttributions": [
+            {
+              "displayName": "Toni Martinez",
+              "uri": "https://maps.google.com/maps/contrib/109283160545198532403",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJKc3w7_bXszzHszJWnv7mWytEltZTjt0f9C63wA-TI9eh6vQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipMgRZQ5l6Ss5MZw9kpnemc8ErhQJCuv12qJ-3KU&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipMgRZQ5l6Ss5MZw9kpnemc8ErhQJCuv12qJ-3KU!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWqfkN7y-Q5r8ff4rBE-Uu2g-_KPmyKRCQ6jGy6LPY3RKJw4CubB2GJEBpB2ExAJvGM3FGWQRZVdxTsKK148XcllPY877VxJqr3AnxJJPr5yj3pcioxzFvn-nihpA8tfSVjXDKsX3ZB9Y7FzVUNTa6QqMi9-TqflTu84",
+          "widthPx": 3024,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Ashlee Bishop",
+              "uri": "https://maps.google.com/maps/contrib/110869057866494090781",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW52FBoI1_Yu1SUjTtGg33_9bIqo2CKWeWAh23nqXyWQcArDSx_=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipOBFy61Om3vx6p1dGMdvzTg3EI_V62b5wYMPO16&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOBFy61Om3vx6p1dGMdvzTg3EI_V62b5wYMPO16!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWrmmsZllIHCkHQ1e_MPv45N5_hYBMYQH7aT6HC1uBhKQ46MZ5gZeSJl22fu5LXa41r1uxYS2cqtjOmHovFVUEkTc584xHRzv7LRjxIKCJC8k9tHO7fDP-CV6_8pkTE40_GGu9cl-qJNMwnRxKExnER2NC1mWGREPMo6",
+          "widthPx": 1433,
+          "heightPx": 934,
+          "authorAttributions": [
+            {
+              "displayName": "Julio Jaramillo",
+              "uri": "https://maps.google.com/maps/contrib/100827657851619855592",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLl9EvPjMQICNUAMZ0EzJouMpLHi2PaG7nNhkCF5OlkrhP5Iw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipN1yvHtNxBdwtot9nXXRYvhx7WL96zgtWmlc1rV&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN1yvHtNxBdwtot9nXXRYvhx7WL96zgtWmlc1rV!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWpQOWWWJt46XbTFnMAzXSkRGovWfF2XTSC2m0ocPbZe7_UEQ1mrVVKs2EjsVbn1KmgEuRUzjEGjcFzbtb-UHvpLLjZY3IJaDDvNPwfexTO9tNBcn1WtXZE499hvfRipHTnt2z6hWB8nZlqe9KckvjKWBsB19MNkh9Ev",
+          "widthPx": 1080,
+          "heightPx": 1440,
+          "authorAttributions": [
+            {
+              "displayName": "Rogelio Rosas",
+              "uri": "https://maps.google.com/maps/contrib/110895235889740614731",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL68cVqjLIe-Bi_NIEOfaRhsuFzxoFivAB8ZpuiEB9MtC2ziQ=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipOhBPOAwwkTwXoZkUrmZEnckjLcCmVo_WOmyekb&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipOhBPOAwwkTwXoZkUrmZEnckjLcCmVo_WOmyekb!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        },
+        {
+          "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/photos/AdDdOWqpn4PkYNGWK5qWwVCwh8146hkY7kf1RTtG_doLkrUfRp8vESBEPX7mHlMTafWEBsDnB8O1EjTt-v9hJ91swh0-lRRajbeGDh4qP_3uQpTBkSZ5rxVwJErnw9MuqfRfUVG_ZVx0eNzKwByWu-K52PbHh5pRTs0w7Slc",
+          "widthPx": 2973,
+          "heightPx": 1762,
+          "authorAttributions": [
+            {
+              "displayName": "Julio Jaramillo",
+              "uri": "https://maps.google.com/maps/contrib/100827657851619855592",
+              "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLl9EvPjMQICNUAMZ0EzJouMpLHi2PaG7nNhkCF5OlkrhP5Iw=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipM9KlepG26onVZ6BEhNPzVfJGPNOhJUYIK7lvKg&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipM9KlepG26onVZ6BEhNPzVfJGPNOhJUYIK7lvKg!2e10!4m2!3m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+        }
+      ],
+      "outdoorSeating": false,
+      "liveMusic": false,
+      "menuForChildren": true,
+      "servesCocktails": true,
+      "servesDessert": true,
+      "servesCoffee": true,
+      "goodForChildren": true,
+      "allowsDogs": false,
+      "restroom": true,
+      "goodForGroups": true,
+      "paymentOptions": {
+        "acceptsCreditCards": true,
+        "acceptsDebitCards": true,
+        "acceptsCashOnly": false,
+        "acceptsNfc": true
+      },
+      "parkingOptions": {
+        "freeParkingLot": true,
+        "valetParking": false
+      },
+      "accessibilityOptions": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true,
+        "wheelchairAccessibleRestroom": true,
+        "wheelchairAccessibleSeating": true
+      },
+      "generativeSummary": {
+        "overview": {
+          "text": "Burritos, tacos and other Mexican staples are on offer at this casual restaurant and bar.",
+          "languageCode": "en-US"
+        },
+        "description": {
+          "text": "Relaxed restaurant in the South End serving Mexican offerings for breakfast, lunch, and dinner.\nCustomers like the generous portions, and the menu features items like tacos, burritos, and chips. There are also happy hour drinks and food. Some people like the new location and the attentive staff.\nCustomers typically spend $10–20.",
+          "languageCode": "en-US"
+        },
+        "references": {
+          "reviews": [
+            {
+              "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/reviews/ChZDSUhNMG9nS0VJQ0FnSURSd3F6TFh3EAE",
+              "relativePublishTimeDescription": "a year ago",
+              "rating": 5,
+              "text": {
+                "text": "Great food, good service, and I love their new location. It is a better fit.  I ordered the Cameron mojo de ajo, and the plate was not shy of shrimp. Wow , they really served generous portions .We found our spot, better than Entojos restaurant's",
+                "languageCode": "en"
+              },
+              "originalText": {
+                "text": "Great food, good service, and I love their new location. It is a better fit.  I ordered the Cameron mojo de ajo, and the plate was not shy of shrimp. Wow , they really served generous portions .We found our spot, better than Entojos restaurant's",
+                "languageCode": "en"
+              },
+              "authorAttribution": {
+                "displayName": "Claudia H",
+                "uri": "https://www.google.com/maps/contrib/107510336087197574789/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXhu4H2d8SfqV2jW7zib51pwkR1ep_ceDBIE4U0uCT9YLx4AjEi=s128-c0x00000000-cc-rp-mo"
+              },
+              "publishTime": "2023-04-20T22:21:38.428432Z",
+              "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURSd3F6TFh3EAE&d=17924085&t=1",
+              "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURSd3F6TFh3EAE!2m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+            },
+            {
+              "name": "places/ChIJaSSeXesBkVQR8CXOGLqjFkU/reviews/ChZDSUhNMG9nS0VJQ0FnSURoMXF5Ykd3EAE",
+              "relativePublishTimeDescription": "a year ago",
+              "rating": 5,
+              "text": {
+                "text": "Staff is always attentive, affordable prices and good food!",
+                "languageCode": "en"
+              },
+              "originalText": {
+                "text": "Staff is always attentive, affordable prices and good food!",
+                "languageCode": "en"
+              },
+              "authorAttribution": {
+                "displayName": "TitanReign",
+                "uri": "https://www.google.com/maps/contrib/113797001225422449636/reviews",
+                "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUA3Fc3-JofuYfAEgzYa2AiNCC3qeTcvM4uyBcNXFRmqoxQCvpejQ=s128-c0x00000000-cc-rp-mo-ba4"
+              },
+              "publishTime": "2023-03-08T04:33:48.685800Z",
+              "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURoMXF5Ykd3EAE&d=17924085&t=1",
+              "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURoMXF5Ykd3EAE!2m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0"
+            }
+          ]
+        },
+        "overviewFlagContentUri": "https://www.google.com/local/review/rap/report?postId=CiUweDU0OTEwMWViNWQ5ZTI0Njk6MHg0NTE2YTNiYTE4Y2UyNWYwMAI&d=17924085&t=12",
+        "descriptionFlagContentUri": "https://www.google.com/local/review/rap/report?postId=CiUweDU0OTEwMWViNWQ5ZTI0Njk6MHg0NTE2YTNiYTE4Y2UyNWYwMAM&d=17924085&t=12"
+      },
+      "addressDescriptor": {
+        "landmarks": [
+          {
+            "name": "places/ChIJ9a25uiYBkVQRqc9wBYjCHfM",
+            "placeId": "ChIJ9a25uiYBkVQRqc9wBYjCHfM",
+            "displayName": {
+              "text": "Skyline Motors Auto Sales",
+              "languageCode": "en"
+            },
+            "types": [
+              "car_dealer",
+              "establishment",
+              "point_of_interest",
+              "store"
+            ],
+            "straightLineDistanceMeters": 100.660995
+          },
+          {
+            "name": "places/ChIJxZRV3NoBkVQRVqjuShopjvU",
+            "placeId": "ChIJxZRV3NoBkVQRVqjuShopjvU",
+            "displayName": {
+              "text": "Hong Kong Restaurant",
+              "languageCode": "en"
+            },
+            "types": [
+              "bar",
+              "establishment",
+              "food",
+              "meal_delivery",
+              "meal_takeaway",
+              "point_of_interest",
+              "restaurant"
+            ],
+            "spatialRelationship": "AROUND_THE_CORNER",
+            "straightLineDistanceMeters": 104.19147,
+            "travelDistanceMeters": 159.71138
+          },
+          {
+            "name": "places/ChIJp7iATOoBkVQRmDdO9U5VflU",
+            "placeId": "ChIJp7iATOoBkVQRmDdO9U5VflU",
+            "displayName": {
+              "text": "Enterprise Rent-A-Car",
+              "languageCode": "en"
+            },
+            "types": ["car_rental", "establishment", "point_of_interest"],
+            "straightLineDistanceMeters": 314.58728
+          },
+          {
+            "name": "places/ChIJj7s6hNABkVQR2o4bupMFrrM",
+            "placeId": "ChIJj7s6hNABkVQR2o4bupMFrrM",
+            "displayName": {
+              "text": "Extra Space Storage",
+              "languageCode": "en"
+            },
+            "types": [
+              "establishment",
+              "moving_company",
+              "point_of_interest",
+              "storage",
+              "store"
+            ],
+            "straightLineDistanceMeters": 365.21817
+          },
+          {
+            "name": "places/ChIJf5tDwdoBkVQRB5BsP3VHNh0",
+            "placeId": "ChIJf5tDwdoBkVQRB5BsP3VHNh0",
+            "displayName": {
+              "text": "Premier Chiropractic of Tacoma PLLC",
+              "languageCode": "en"
+            },
+            "types": ["doctor", "establishment", "health", "point_of_interest"],
+            "spatialRelationship": "AROUND_THE_CORNER",
+            "straightLineDistanceMeters": 142.88342,
+            "travelDistanceMeters": 150.57294
+          }
+        ],
+        "areas": [
+          {
+            "name": "places/ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "placeId": "ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "displayName": {
+              "text": "South End",
+              "languageCode": "en"
+            },
+            "containment": "WITHIN"
+          },
+          {
+            "name": "places/ChIJcXY5yNoBkVQR_oPUin_97Gk",
+            "placeId": "ChIJcXY5yNoBkVQR_oPUin_97Gk",
+            "displayName": {
+              "text": "Westwood Square Apartments",
+              "languageCode": "en"
+            },
+            "containment": "NEAR"
+          }
+        ]
+      },
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0!3e0",
+        "placeUri": "https://maps.google.com/?cid=4978346457780069872",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0!12e1",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0!9m1!1b1",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x549101eb5d9e2469:0x4516a3ba18ce25f0!10e5"
+      },
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      }
+    },
+    {
+      "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8",
+      "id": "ChIJOZhPJwABkVQRFnRw7uFpPQ8",
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "nationalPhoneNumber": "(509) 790-1704",
+      "internationalPhoneNumber": "+1 509-790-1704",
+      "formattedAddress": "Pacific Ave &, S 84th St, Tacoma, WA 98444, USA",
+      "addressComponents": [
+        {
+          "longText": "South 84th Street",
+          "shortText": "S 84th St",
+          "types": ["route"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "South End",
+          "shortText": "South End",
+          "types": ["neighborhood", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Tacoma",
+          "shortText": "Tacoma",
+          "types": ["locality", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Pierce County",
+          "shortText": "Pierce County",
+          "types": ["administrative_area_level_2", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "Washington",
+          "shortText": "WA",
+          "types": ["administrative_area_level_1", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "United States",
+          "shortText": "US",
+          "types": ["country", "political"],
+          "languageCode": "en"
+        },
+        {
+          "longText": "98444",
+          "shortText": "98444",
+          "types": ["postal_code"],
+          "languageCode": "en-US"
+        }
+      ],
+      "plusCode": {
+        "globalCode": "84VV5HJ8+7C",
+        "compoundCode": "5HJ8+7C Tacoma, WA, USA"
+      },
+      "location": {
+        "latitude": 47.1807346,
+        "longitude": -122.43395770000001
+      },
+      "viewport": {
+        "low": {
+          "latitude": 47.1794852197085,
+          "longitude": -122.43530288029147
+        },
+        "high": {
+          "latitude": 47.1821831802915,
+          "longitude": -122.43260491970848
+        }
+      },
+      "rating": 3.9,
+      "googleMapsUri": "https://maps.google.com/?cid=1098150303237174294",
+      "regularOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 5,
+              "hour": 19,
+              "minute": 0
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 20,
+              "minute": 30
+            },
+            "close": {
+              "day": 0,
+              "hour": 13,
+              "minute": 0
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: Closed",
+          "Thursday: Closed",
+          "Friday: 7:00 PM – 1:00 AM",
+          "Saturday: 8:30 PM – 12:00 AM",
+          "Sunday: 12:00 AM – 1:00 PM"
+        ],
+        "nextOpenTime": "2024-11-23T03:00:00Z"
+      },
+      "utcOffsetMinutes": -480,
+      "adrFormatAddress": "Pacific Ave &amp;, <span class=\"street-address\">S 84th St</span>, <span class=\"locality\">Tacoma</span>, <span class=\"region\">WA</span> <span class=\"postal-code\">98444</span>, <span class=\"country-name\">USA</span>",
+      "businessStatus": "OPERATIONAL",
+      "userRatingCount": 8,
+      "iconMaskBaseUri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+      "iconBackgroundColor": "#FF9E67",
+      "displayName": {
+        "text": "Tacos La Cuadra",
+        "languageCode": "en"
+      },
+      "primaryTypeDisplayName": {
+        "text": "Mexican Restaurant",
+        "languageCode": "en-US"
+      },
+      "dineIn": true,
+      "servesDinner": true,
+      "currentOpeningHours": {
+        "openNow": false,
+        "periods": [
+          {
+            "open": {
+              "day": 0,
+              "hour": 0,
+              "minute": 0,
+              "truncated": true,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            },
+            "close": {
+              "day": 0,
+              "hour": 13,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 17
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 5,
+              "hour": 19,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 22
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 1,
+              "minute": 0,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            }
+          },
+          {
+            "open": {
+              "day": 6,
+              "hour": 20,
+              "minute": 30,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            },
+            "close": {
+              "day": 6,
+              "hour": 23,
+              "minute": 59,
+              "truncated": true,
+              "date": {
+                "year": 2024,
+                "month": 11,
+                "day": 23
+              }
+            }
+          }
+        ],
+        "weekdayDescriptions": [
+          "Monday: Closed",
+          "Tuesday: Closed",
+          "Wednesday: Closed",
+          "Thursday: Closed",
+          "Friday: 7:00 PM – 1:00 AM",
+          "Saturday: 8:30 PM – 12:00 AM",
+          "Sunday: 12:00 AM – 1:00 PM"
+        ],
+        "nextOpenTime": "2024-11-23T03:00:00Z"
+      },
+      "primaryType": "mexican_restaurant",
+      "shortFormattedAddress": "Pacific Ave &, S 84th St, Tacoma",
+      "reviews": [
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/reviews/ChdDSUhNMG9nS0VJQ0FnSURucm9lZW9nRRAB",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 1,
+          "text": {
+            "text": "Went to go have tacos during their business hours and there was not a pop up. Please update your location because I would love to try the AlPastor",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Went to go have tacos during their business hours and there was not a pop up. Please update your location because I would love to try the AlPastor",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Patricia Mauldin",
+            "uri": "https://www.google.com/maps/contrib/105815235239469080534/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXyxkvfAx7yy7D7AXYZt8zRAa-Ag5fpVFwTgr7HUE21bgxUZbI=s128-c0x00000000-cc-rp-mo-ba3"
+          },
+          "publishTime": "2024-10-06T01:32:22.953242Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURucm9lZW9nRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURucm9lZW9nRRAB!2m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/reviews/ChZDSUhNMG9nS0VJQ0FnSURuaVlETUl3EAE",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 1,
+          "text": {
+            "text": "Wrong hours posted",
+            "languageCode": "en"
+          },
+          "originalText": {
+            "text": "Wrong hours posted",
+            "languageCode": "en"
+          },
+          "authorAttribution": {
+            "displayName": "Julio Rios",
+            "uri": "https://www.google.com/maps/contrib/112920607828913113350/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUMfxBYxbTYWCxsslJPFYjYyPxoKBfCNXpkEIroswN-fG_Mki0Z1w=s128-c0x00000000-cc-rp-mo-ba4"
+          },
+          "publishTime": "2024-10-07T04:42:10.272779Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURuaVlETUl3EAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURuaVlETUl3EAE!2m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/reviews/ChdDSUhNMG9nS0VJQ0FnSURIcjUyM2tnRRAB",
+          "relativePublishTimeDescription": "a month ago",
+          "rating": 5,
+          "authorAttribution": {
+            "displayName": "Sick Made",
+            "uri": "https://www.google.com/maps/contrib/118267967843313164131/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVnyIVu-9sgMdu9a4WmAxkonGbVVh9fB6-CUcsrElj_Qdn63yUB=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2024-09-21T04:49:24.283960Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURIcjUyM2tnRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURIcjUyM2tnRRAB!2m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ3amFYMThnRRAB",
+          "relativePublishTimeDescription": "2 months ago",
+          "rating": 5,
+          "authorAttribution": {
+            "displayName": "Francisco Hernandez",
+            "uri": "https://www.google.com/maps/contrib/115874155353315816995/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL7sYZZ8tbCmqsomV-JkWTr44vimW589BvgtRKU8enmaVEl=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2024-08-27T02:08:26.849265Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUQ3amFYMThnRRAB&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUQ3amFYMThnRRAB!2m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/reviews/ChZDSUhNMG9nS0VJQ0FnSUM3Z05IdUtREAE",
+          "relativePublishTimeDescription": "3 months ago",
+          "rating": 5,
+          "authorAttribution": {
+            "displayName": "Robert Cuevas",
+            "uri": "https://www.google.com/maps/contrib/113025200717504745843/reviews",
+            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIy14l7ZWloHwoRhACn49hHKeIFdU3E0yALzoGHbS_EyUMrkg=s128-c0x00000000-cc-rp-mo"
+          },
+          "publishTime": "2024-08-11T07:09:01.182148Z",
+          "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUM3Z05IdUtREAE&d=17924085&t=1",
+          "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUM3Z05IdUtREAE!2m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        }
+      ],
+      "photos": [
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/photos/AdDdOWoP7PoHTbKNG3ZKqE0Cy7BnjBgErFq-pBiH4qIGm09_c-mP912B2nXFXaV4POAneTSJYu3cTC8lQEOzpe36fmymbambv8WBZvrHRlaNH48RgpVoUAW6SvM5CteL0x8zfo8nzb5Q1hVtT_q2zVR-uT63a7Cy4KDLZh5c",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Brenda Oviedo",
+              "uri": "https://maps.google.com/maps/contrib/116196920230892318371",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXz49p8apAh_sXJxOD9UYWyRtQUPK9N98y3EQ7gqaYtnzB6Vp39=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipN3fUdnUIq72XakfpnWdNpwBiKtH_vn18fEbnsU&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN3fUdnUIq72XakfpnWdNpwBiKtH_vn18fEbnsU!2e10!4m2!3m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/photos/AdDdOWrseVtmLRoDVnQApBNu_I9wXGO2y7udq6kiDdnN2KwR4cpXwy6g4gWHcr7-Exj_h9dcWkeKfWpXckz9CcXaouGyxBcBvmnD6OgLmrUhdEZ88Gm5QMl5d1PTMDu0Kaj14Vd8st8-9SXIDo3hUvpBC4BzInSZCdTUlmOa",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Brenda Oviedo",
+              "uri": "https://maps.google.com/maps/contrib/116196920230892318371",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXz49p8apAh_sXJxOD9UYWyRtQUPK9N98y3EQ7gqaYtnzB6Vp39=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNuctq-wVOGur-WvVk8P1Wub-NyTm6LYZHUzOkG&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNuctq-wVOGur-WvVk8P1Wub-NyTm6LYZHUzOkG!2e10!4m2!3m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/photos/AdDdOWqaazuNP5rDkOHRuGecMiu7IkqaShTHYMEw1vaDDKUHoNjA-XcG_k-MXK5nS3f04H0CdxED8prXLDMWWSGu42mOYuXgZhjzYDJmBHpz_mGAoXkTxMwzbPLl8u2nIXToJHZ-nTPLh3X3-nkMvrKPMJp_9cHNAwHFEkGK",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Brenda Oviedo",
+              "uri": "https://maps.google.com/maps/contrib/116196920230892318371",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXz49p8apAh_sXJxOD9UYWyRtQUPK9N98y3EQ7gqaYtnzB6Vp39=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipM38MOh6DTs_QpUgk62nY0kV4W2B82c1AuIFE6i&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipM38MOh6DTs_QpUgk62nY0kV4W2B82c1AuIFE6i!2e10!4m2!3m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/photos/AdDdOWrdshqVsIhORU70_dMzkY5FsDnw-1x8xB8hAsAjBUCSmEGM-KWeVTPttenhYqz93FMBwizP5neU4GNGHgUB7jZj4UkGnom59vcSDJpdJ0nOqQxgstQ-539-M_C8PtKKz8F8lCPjkK9JuA42ckQchEFSpASMqJI6svMX",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Brenda Oviedo",
+              "uri": "https://maps.google.com/maps/contrib/116196920230892318371",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXz49p8apAh_sXJxOD9UYWyRtQUPK9N98y3EQ7gqaYtnzB6Vp39=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNJj_fhQYnmlFJ2KGVtS1m0YLIrHNkVWVyUido5&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNJj_fhQYnmlFJ2KGVtS1m0YLIrHNkVWVyUido5!2e10!4m2!3m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/photos/AdDdOWqzYdQcOJMZhGYx_q908RH-h5nohhCO9w8szpz6jHbSJ7AE3yMf4Ix3MgYFAjtgJLxyh00RIgfqra44txVDLLBAuh25rNzxlJXngUcWByDcvfsqx0nhEVsPCOXa7Nz4a9bpygavNQoM7aI0NmbvD0kJDyUcBKlmN93G",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Brenda Oviedo",
+              "uri": "https://maps.google.com/maps/contrib/116196920230892318371",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXz49p8apAh_sXJxOD9UYWyRtQUPK9N98y3EQ7gqaYtnzB6Vp39=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipNZTnL18B6PwoNoZNPHzgLh-xHRh9gOxtEHeR-Y&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNZTnL18B6PwoNoZNPHzgLh-xHRh9gOxtEHeR-Y!2e10!4m2!3m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/photos/AdDdOWoV-bZWk3ZS2r0dAe7iAHyCFF1ljuwTO_qAfO1baqjKur9CrY39BBVtaxONoPKdptA_pFixriGacnZrPGZb3fdIIrtV8HMvKPAbHIOIA7C0RrDu_u7GYT7U-r6JJKI0PqZ2eFGx1YQmu74ZYJliL1tvXe1YERPa--9E",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Brenda Oviedo",
+              "uri": "https://maps.google.com/maps/contrib/116196920230892318371",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXz49p8apAh_sXJxOD9UYWyRtQUPK9N98y3EQ7gqaYtnzB6Vp39=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipP-KdssJ5uUsSBpUDSpNPXahYJ0AnUOA09vBTYA&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP-KdssJ5uUsSBpUDSpNPXahYJ0AnUOA09vBTYA!2e10!4m2!3m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        },
+        {
+          "name": "places/ChIJOZhPJwABkVQRFnRw7uFpPQ8/photos/AdDdOWoTBLw0YOI7NPRjyarH8AmkhkD1zLgv7zor3CaPfkI24bAaktO2IELHC0xYKBU8J0TId3o7pRx0StCq9QCHk-3C-Du5UFetGfBmKBW9tYUfJLtEUFu8eju4id5iOHklUPLD-_JAtT3Y88nafJeAmjZRXv_G6-MLpX-x",
+          "widthPx": 2268,
+          "heightPx": 4032,
+          "authorAttributions": [
+            {
+              "displayName": "Brenda Oviedo",
+              "uri": "https://maps.google.com/maps/contrib/116196920230892318371",
+              "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXz49p8apAh_sXJxOD9UYWyRtQUPK9N98y3EQ7gqaYtnzB6Vp39=s100-p-k-no-mo"
+            }
+          ],
+          "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places&image_key=!1e10!2sAF1QipPpxmX-jnOj9dLxAemwIydqC2-xbwhJ60TXt72o&hl=en-US",
+          "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPpxmX-jnOj9dLxAemwIydqC2-xbwhJ60TXt72o!2e10!4m2!3m1!1s0x54910100274f9839:0xf3d69e1ee707416"
+        }
+      ],
+      "paymentOptions": {
+        "acceptsCreditCards": true,
+        "acceptsCashOnly": false
+      },
+      "accessibilityOptions": {
+        "wheelchairAccessibleParking": true,
+        "wheelchairAccessibleEntrance": true
+      },
+      "containingPlaces": [
+        {
+          "name": "places/ChIJLf4TJNEBkVQRFRwWIYYHEYU",
+          "id": "ChIJLf4TJNEBkVQRFRwWIYYHEYU"
+        }
+      ],
+      "addressDescriptor": {
+        "landmarks": [
+          {
+            "name": "places/ChIJLf4TJNEBkVQRFRwWIYYHEYU",
+            "placeId": "ChIJLf4TJNEBkVQRFRwWIYYHEYU",
+            "displayName": {
+              "text": "Walgreens",
+              "languageCode": "en"
+            },
+            "types": [
+              "clothing_store",
+              "convenience_store",
+              "drugstore",
+              "establishment",
+              "food",
+              "health",
+              "point_of_interest",
+              "store"
+            ],
+            "straightLineDistanceMeters": 78.13722,
+            "travelDistanceMeters": 99.46186
+          },
+          {
+            "name": "places/ChIJ_QdCO9EBkVQRjr8IMToaonk",
+            "placeId": "ChIJ_QdCO9EBkVQRjr8IMToaonk",
+            "displayName": {
+              "text": "Umpqua Bank",
+              "languageCode": "en"
+            },
+            "types": ["bank", "establishment", "finance", "point_of_interest"],
+            "straightLineDistanceMeters": 57.136894,
+            "travelDistanceMeters": 107.3286
+          },
+          {
+            "name": "places/ChIJ35MMttYBkVQRLVEN_OOIn0Q",
+            "placeId": "ChIJ35MMttYBkVQRLVEN_OOIn0Q",
+            "displayName": {
+              "text": "Arco",
+              "languageCode": "en"
+            },
+            "types": ["establishment", "gas_station", "point_of_interest"],
+            "spatialRelationship": "DOWN_THE_ROAD",
+            "straightLineDistanceMeters": 53.37997,
+            "travelDistanceMeters": 39.453926
+          },
+          {
+            "name": "places/ChIJu0b7H-r_kFQR4GtEoDHeof8",
+            "placeId": "ChIJu0b7H-r_kFQR4GtEoDHeof8",
+            "displayName": {
+              "text": "Papa Murphy's | Take 'N' Bake Pizza",
+              "languageCode": "en"
+            },
+            "types": [
+              "establishment",
+              "food",
+              "meal_takeaway",
+              "point_of_interest",
+              "restaurant"
+            ],
+            "straightLineDistanceMeters": 88.16869,
+            "travelDistanceMeters": 131.2106
+          },
+          {
+            "name": "places/ChIJy0ySONIBkVQRCpHTLPEsi4E",
+            "placeId": "ChIJy0ySONIBkVQRCpHTLPEsi4E",
+            "displayName": {
+              "text": "Hasune’s Barbershop",
+              "languageCode": "en"
+            },
+            "types": [
+              "beauty_salon",
+              "establishment",
+              "hair_care",
+              "health",
+              "point_of_interest"
+            ],
+            "spatialRelationship": "DOWN_THE_ROAD",
+            "straightLineDistanceMeters": 74.886696,
+            "travelDistanceMeters": 72.374954
+          }
+        ],
+        "areas": [
+          {
+            "name": "places/ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "placeId": "ChIJ74y77Nj_kFQRdN7e_4rAs7E",
+            "displayName": {
+              "text": "South End",
+              "languageCode": "en"
+            },
+            "containment": "WITHIN"
+          }
+        ]
+      },
+      "googleMapsLinks": {
+        "directionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x54910100274f9839:0xf3d69e1ee707416!3e0",
+        "placeUri": "https://maps.google.com/?cid=1098150303237174294",
+        "writeAReviewUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x54910100274f9839:0xf3d69e1ee707416!12e1",
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x54910100274f9839:0xf3d69e1ee707416!9m1!1b1",
+        "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x54910100274f9839:0xf3d69e1ee707416!10e5"
+      }
+    }
+  ]
+}

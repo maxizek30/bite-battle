@@ -3,7 +3,7 @@ const express = require("express");
 const axios = require("axios");
 const fs = require("fs");
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 4000;
 const cors = require("cors");
 
 const allowedOrigin = process.env.ALLOWED_ORIGIN;

@@ -8,6 +8,8 @@ const cors = require("cors");
 
 const allowedOrigin = process.env.ALLOWED_ORIGIN;
 
+console.log("Allowed Origin:", allowedOrigin);
+
 // Middleware
 app.use(
   cors({

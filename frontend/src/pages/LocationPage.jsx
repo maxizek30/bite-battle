@@ -12,16 +12,17 @@ function LocationPage() {
   const navigate = useNavigate();
 
   const handleLocationClick = () => {
+    setLoading(true);
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(success, error);
     } else {
       console.log("Geolocation not supported");
+      setLoading(false);
     }
   };
 
   function success(position) {
     console.log("Got location");
-    setLoading(true);
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
     console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
@@ -31,10 +32,10 @@ function LocationPage() {
 
   function error() {
     console.log("Unable to retrieve your location");
+    setLoading(false);
   }
 
   const fetchRestaurants = async (latitude, longitude) => {
-    setLoading(true);
     try {
       const response = await axios.post(
         `http://localhost:8000/v1/places:searchNearby`,
@@ -49,9 +50,6 @@ function LocationPage() {
         response.data.places.slice(0, 16)
       );
       setRestaurants(processedData);
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      console.log(processedData);
-
       navigate("/Bracket");
     } catch (error) {
       console.error("Error fetching data:", error);

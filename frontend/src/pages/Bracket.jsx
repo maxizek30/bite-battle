@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { RestaurantContext } from "../context/RestaurantContext";
-import { Bracket, Seed, SeedItem, SeedTeam } from "react-brackets";
+import { Bracket, Seed, SeedItem, SeedTeam } from "@pawix/react-brackets";
 import { useNavigate } from "react-router-dom";
 import { BracketContext } from "../context/BracketContext";
 import styles from "../styles/Bracket.module.css";
@@ -120,7 +120,16 @@ function BracketComponent() {
         </button>
       </div>
 
-      {rounds.length > 0 ? (
+      {restaurants.length < 16 ? (
+        <div className={styles.alternativeMessage}>
+          <h2>Not Enough Restaurants</h2>
+          <p>
+            Please add more restaurants to start a tournament. You need at least
+            16 restaurants to proceed.
+          </p>
+          <button onClick={() => navigate("/")}>Add Restaurants</button>
+        </div>
+      ) : rounds.length > 0 ? (
         <div className={styles.bracketDiv}>
           <Bracket
             roundClassName={styles.bracketContainer}
@@ -128,6 +137,7 @@ function BracketComponent() {
             renderSeedComponent={(props) =>
               customSeed({ ...props, roundIndex: props.roundIndex })
             }
+            mobileBreakpoint={0}
           />
         </div>
       ) : (

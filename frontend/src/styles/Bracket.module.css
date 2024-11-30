@@ -11,6 +11,10 @@
   border-width: 5px;
   border-style: solid;
   border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  overflow: scroll;
 }
 .showdown {
   background-color: var(--pico-secondary-background);
@@ -25,4 +29,6 @@
   border-color: var(--pico-secondary-border);
   border-width: 2px;
   border-style: solid;
+}
+.bracketContainer {
 }

@@ -5,46 +5,19 @@ const fs = require("fs");
 const app = express();
 const port = 8000;
 const cors = require("cors");
-const path = require("path");
+
+const allowedOrigin = process.env.ALLOWED_ORIGIN;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: allowedOrigin,
+    methods: "GET,POST,PUT,DELETE,PATCH",
+    credentials: true,
+  })
+);
 app.use(express.json()); // To parse JSON request bodies
 
-// Route to handle search for nearby places
-// app.post("/v1/places:searchNearby", async (req, res) => {
-//   const { latitude, longitude, radius, includedTypes } = req.body;
-
-//   const requestBody = {
-//     includedTypes: includedTypes || ["restaurant"],
-//     locationRestriction: {
-//       circle: {
-//         center: {
-//           latitude: latitude || 47.17754,
-//           longitude: longitude || -122.43033,
-//         },
-//         radius: radius || 4000,
-//       },
-//     },
-//   };
-
-//   try {
-//     const response = await axios.post(
-//       `https://places.googleapis.com/v1/places:searchNearby?key=${process.env.GOOGLE_PLACES_API_KEY}&fields=places.displayName,places.types,places.rating,places.websiteUri,places.photos,places.priceLevel,places.priceRange`,
-//       requestBody,
-//       {
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//       }
-//     );
-
-//     res.json(response.data);
-//   } catch (error) {
-//     console.error("Error fetching data from Google Places API", error);
-//     res.status(500).send("Error fetching data from Google Places API");
-//   }
-// });
 app.post("/v1/places:searchNearby", async (req, res) => {
   const { latitude, longitude, radius, includedTypes } = req.body;
 

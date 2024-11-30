@@ -26,7 +26,9 @@ function ShowdownScreen() {
           const photoUrls = await Promise.all(
             photoReferences.map(async (photoReference) => {
               const response = await fetch(
-                `http://localhost:8000/v1/places/photos?photoReference=${photoReference}&maxWidth=400`
+                `${
+                  import.meta.env.VITE_API_URL
+                }/v1/places/photos?photoReference=${photoReference}&maxWidth=400`
               );
               const data = await response.json();
               return data.photoUri;

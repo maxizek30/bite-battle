@@ -4,6 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import styles from "../styles/LocationPage.module.css";
 import { preprocessRestaurantData } from "../models/Restaurant";
+
 function LocationPage() {
   const [loading, setLoading] = useState(false);
   const [location, setLocation] = useState(null);
@@ -38,7 +39,7 @@ function LocationPage() {
   const fetchRestaurants = async (latitude, longitude) => {
     try {
       const response = await axios.post(
-        `http://localhost:8000/v1/places:searchNearby`,
+        `${import.meta.env.VITE_API_URL}/v1/places:searchNearby`,
         {
           latitude,
           longitude,

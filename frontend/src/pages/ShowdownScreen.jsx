@@ -150,7 +150,7 @@ function ShowdownScreen() {
         </div>
         {renderCarousel("team2", match.teams[1])}
         <div className={styles.bottomSection}>
-          <button onClick={() => handleSelect(match.teams[0])}>Choose</button>
+          <button onClick={() => handleSelect(match.teams[1])}>Choose</button>
         </div>
       </div>
       <div className={styles.seperator} />

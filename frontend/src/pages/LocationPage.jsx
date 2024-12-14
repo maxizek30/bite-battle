@@ -4,15 +4,19 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import styles from "../styles/LocationPage.module.css";
 import { preprocessRestaurantData } from "../models/Restaurant";
+import { BracketContext } from "../context/BracketContext";
 
 function LocationPage() {
   const [loading, setLoading] = useState(false);
   const [location, setLocation] = useState(null);
   const { setRestaurants } = useContext(RestaurantContext);
+  const { resetTournament } = useContext(BracketContext);
 
   const navigate = useNavigate();
 
   const handleLocationClick = () => {
+    // Reset localStorage and state
+    resetTournament();
     setLoading(true);
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(success, error);

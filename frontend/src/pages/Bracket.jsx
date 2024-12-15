@@ -147,9 +147,21 @@ function BracketComponent() {
       <dialog id="winnerModal" open={isModalOpen}>
         <article>
           <header>
-            <h2>Winner!</h2>
+            <h2>Good Choice!</h2>
           </header>
-          <p>{winner ? `Winner: ${winner.name}` : "No winner selected"}</p>
+          {winner ? (
+            <>
+              <h1>{winner.name}</h1>
+              <p>{winner.description}</p>
+              <h3>Drive there!</h3>
+              <address>{winner.address}</address>
+              <a href={winner.google_maps_url} target="_blank" rel="noreferrer">
+                Open with Google Maps
+              </a>
+            </>
+          ) : (
+            <p>There was an error selecting a winner. Please try again.</p>
+          )}
 
           <footer>
             <button className="secondary" onClick={closeModal}>

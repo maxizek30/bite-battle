@@ -1,6 +1,9 @@
 class Restaurant {
   constructor(rawData) {
     this.name = rawData.displayName?.text || "Unnamed Restaurant";
+    this.description =
+      rawData.generativeSummary?.overview?.text || "No description available";
+    this.address = rawData.formattedAddress || "N/A";
     this.photos = rawData.photos || []; // Fallback if no image
     this.categories = rawData.types || [];
     this.rating = rawData.rating || "N/A";
@@ -8,6 +11,7 @@ class Restaurant {
     this.price_range = rawData.priceRange || "N/A";
     this.location = rawData.location || "N/A";
     this.website_url = rawData.websiteUri || "N/A";
+    this.google_maps_url = rawData.googleMapsUri || "N/A";
   }
 
   // Method to format the price level into readable format

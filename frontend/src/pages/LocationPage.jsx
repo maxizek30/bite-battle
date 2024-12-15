@@ -51,6 +51,7 @@ function LocationPage() {
           includedTypes: ["restaurant"],
         }
       );
+      console.log("Response:", response.data.places);
       const processedData = preprocessRestaurantData(
         response.data.places.slice(0, 16)
       );

@@ -40,7 +40,7 @@ app.post("/v1/places:searchNearby", async (req, res) => {
     },
   };
 
-  const url = `https://places.googleapis.com/v1/places:searchNearby?fields=places.displayName,places.rating,places.websiteUri,places.photos,places.priceLevel,places.priceRange,places.location,places.generativeSummary&key=${process.env.GOOGLE_PLACES_API_KEY}`;
+  const url = `https://places.googleapis.com/v1/places:searchNearby?fields=places.displayName,places.rating,places.websiteUri,places.googleMapsUri,places.formattedAddress,places.photos,places.priceLevel,places.priceRange,places.location,places.generativeSummary&key=${process.env.GOOGLE_PLACES_API_KEY}`;
 
   try {
     const response = await axios.post(url, requestBody, {

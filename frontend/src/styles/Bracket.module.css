@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  height: 10vh;
+  max-height: 10vh;
 }
 .bracketDiv {
   background-color: var(--pico-card-background-color);
@@ -15,6 +17,7 @@
   flex-direction: row;
   max-width: 100%;
   overflow: scroll;
+  max-height: 85vh;
 }
 .showdown {
   background-color: var(--pico-secondary-background);

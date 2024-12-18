@@ -35,7 +35,6 @@
   display: flex;
   align-items: center;
   height: 30%;
-
   justify-content: center;
   flex-direction: column;
   padding: 20px;
@@ -68,11 +67,43 @@
   .locationContainer {
     width: 96%;
     overflow: hidden;
+    border-width: 2px;
   }
   .carouselContainer {
     height: 40%;
   }
   .topSection {
-    height: 50%;
+    height: 40%;
   }
+}
+
+@keyframes flyInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes flyInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply these animations to your containers */
+.flyInFromLeft {
+  animation: flyInLeft 0.3s ease-out forwards;
+}
+
+.flyInFromRight {
+  animation: flyInRight 0.3s ease-out forwards;
 }

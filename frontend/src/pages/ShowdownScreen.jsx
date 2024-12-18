@@ -112,7 +112,7 @@ function ShowdownScreen() {
   return (
     <div className={styles.container}>
       <div className={styles.seperator} />
-      <div className={styles.locationContainer}>
+      <div className={`${styles.locationContainer} ${styles.flyInFromLeft}`}>
         <div className={styles.topSection}>
           <h1>{match.teams[0].name}</h1>
           <div className={styles.restaurantAttributes}>
@@ -133,7 +133,7 @@ function ShowdownScreen() {
         </div>
       </div>
       <div className={styles.seperator} />
-      <div className={styles.locationContainer}>
+      <div className={`${styles.locationContainer} ${styles.flyInFromRight}`}>
         <div className={styles.topSection}>
           <h1>{match.teams[1].name}</h1>
           <div className={styles.restaurantAttributes}>

@@ -2,9 +2,11 @@
   background-color: var(--pico-background);
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 100vh; /* Ensures full viewport height */
   align-items: center;
+  min-width: 0;
 }
+
 .locationContainer {
   display: flex;
   flex-direction: column;
@@ -15,17 +17,33 @@
   border-style: solid;
   flex: 1;
   border-radius: 10px;
-  height: 96%;
+  height: 96%; /* A defined height so the carousel can scale within it */
+  min-width: 0;
+}
+.carousel {
+  width: 100%;
+  max-width: 100%;
+  flex: 1;
+  overflow: hidden;
+  min-width: 0;
+}
+.swiperContainer {
+  height: 100%;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
 }
 
-.restaurantAttributes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.carouselImage {
   width: 100%;
-}
-.image {
-  max-height: 50%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .seperator {
   width: 2%;
@@ -39,44 +57,96 @@
   flex-direction: column;
   padding: 20px;
 }
+
 .bottomSection {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  z-index: 1;
 }
-.carouselContainer {
-  height: 60%;
-  width: 100%;
+
+.title {
+  font-size: 1.4rem;
+}
+.description {
+  font-size: 1rem;
+}
+
+.attributes {
+  font-weight: bold;
+}
+
+.restaurantAttributes {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
-.carouselImage {
-  max-height: 100%;
-  max-width: 70%;
-}
-@media (max-width: 600px) {
+
+/* Responsiveness */
+@media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
   .seperator {
     width: 100%;
-    height: 2%;
+    height: 4%;
   }
   .locationContainer {
     width: 96%;
-    overflow: hidden;
     border-width: 2px;
-  }
-  .carouselContainer {
-    height: 40%;
+    height: 48vh;
   }
   .topSection {
     height: 40%;
+    padding: 4px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .attributes {
+    font-size: 1rem;
+  }
+  .bottomSection {
+    margin-bottom: 10px;
   }
 }
 
+@media (max-width: 568px) {
+  .container {
+    flex-direction: column;
+  }
+  .seperator {
+    width: 100%;
+    height: 1%;
+  }
+  .locationContainer {
+    width: 96%;
+    border-width: 2px;
+    height: 50vh;
+  }
+  .topSection {
+    height: 40%;
+    padding: 4px;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.3rem;
+  }
+  .attributes {
+    font-size: 0.7rem;
+  }
+  .bottomSection {
+    margin-bottom: 10px;
+  }
+}
+
+/* Animations */
 @keyframes flyInLeft {
   0% {
     opacity: 0;
@@ -99,7 +169,6 @@
   }
 }
 
-/* Apply these animations to your containers */
 .flyInFromLeft {
   animation: flyInLeft 0.3s ease-out forwards;
 }

@@ -2,6 +2,10 @@ import { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { BracketContext } from "../context/BracketContext";
 import styles from "../styles/ShowdownScreen.module.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 
 function ShowdownScreen() {
   const { onSelectWinner } = useContext(BracketContext);
@@ -12,10 +16,6 @@ function ShowdownScreen() {
   const [teamPhotos, setTeamPhotos] = useState({
     team1: [],
     team2: [],
-  });
-  const [currentIndex, setCurrentIndex] = useState({
-    team1: 0,
-    team2: 0,
   });
 
   useEffect(() => {
@@ -46,6 +46,7 @@ function ShowdownScreen() {
           team1: team1Photos,
           team2: team2Photos,
         });
+        console.log("team1Photos", team1Photos);
       } catch (error) {
         console.error("Error fetching photos:", error);
       }
@@ -59,53 +60,40 @@ function ShowdownScreen() {
     navigate("/bracket");
   };
 
-  const handleNextPhoto = (teamKey) => {
-    setCurrentIndex((prev) => ({
-      ...prev,
-      [teamKey]: (prev[teamKey] + 1) % teamPhotos[teamKey].length,
-    }));
-  };
-
-  const handlePreviousPhoto = (teamKey) => {
-    setCurrentIndex((prev) => ({
-      ...prev,
-      [teamKey]:
-        (prev[teamKey] - 1 + teamPhotos[teamKey].length) %
-        teamPhotos[teamKey].length,
-    }));
-  };
-
   const renderCarousel = (teamKey, team) => {
+    const photos = teamPhotos[teamKey] || [];
+    const hasPhotos = photos.length > 0;
+
     return (
-      <div className={styles.carouselContainer}>
-        {teamPhotos[teamKey].length > 0 ? (
-          <>
-            <button
-              onClick={() => handlePreviousPhoto(teamKey)}
-              className={styles.carouselButton}
-            >
-              ◀
-            </button>
+      <Swiper
+        modules={[Navigation]}
+        spaceBetween={0}
+        navigation
+        slidesPerView={1}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+        className={styles.swiperContainer}
+      >
+        {hasPhotos ? (
+          photos.map((photo, idx) => (
+            <SwiperSlide className={styles.slide} key={idx}>
+              <img
+                src={photo}
+                alt={`${team.name} photo ${idx + 1}`}
+                className={styles.carouselImage}
+              />
+            </SwiperSlide>
+          ))
+        ) : (
+          <SwiperSlide className={styles.slide}>
             <img
-              src={teamPhotos[teamKey][currentIndex[teamKey]]}
-              alt={`${team.name} photo`}
+              src="placeholder-image-url"
+              alt={`${team.name} placeholder`}
               className={styles.carouselImage}
             />
-            <button
-              onClick={() => handleNextPhoto(teamKey)}
-              className={styles.carouselButton}
-            >
-              ▶
-            </button>
-          </>
-        ) : (
-          <img
-            src="placeholder-image-url"
-            alt={`${team.name} placeholder`}
-            className={styles.carouselImage}
-          />
+          </SwiperSlide>
         )}
-      </div>
+      </Swiper>
     );
   };
 
@@ -114,20 +102,21 @@ function ShowdownScreen() {
       <div className={styles.seperator} />
       <div className={`${styles.locationContainer} ${styles.flyInFromLeft}`}>
         <div className={styles.topSection}>
-          <h1>{match.teams[0].name}</h1>
+          <hgroup>
+            <h4 className={styles.title}>{match.teams[0].name}</h4>
+            <p className={styles.description}>{match.teams[0].description}</p>
+          </hgroup>
           <div className={styles.restaurantAttributes}>
-            <h4>⭐️ {match.teams[0].rating}</h4>
-            <h4>💵 {match.teams[0].price}</h4>
-            <h4>
+            <p className={styles.attributes}>⭐️ {match.teams[0].rating}</p>
+            <p className={styles.attributes}>
               💰 ${match.teams[0]?.price_range?.startPrice?.units ?? "N/A"} - $
               {match.teams[0]?.price_range?.endPrice?.units ?? "N/A"}
-            </h4>
+            </p>
           </div>
-          <a href={match.teams[0].website_url} target="_blank" rel="noreferrer">
-            Website
-          </a>
         </div>
-        {renderCarousel("team1", match.teams[0])}
+        <div className={styles.carousel}>
+          {renderCarousel("team1", match.teams[0])}
+        </div>
         <div className={styles.bottomSection}>
           <button onClick={() => handleSelect(match.teams[0])}>Choose</button>
         </div>
@@ -135,20 +124,21 @@ function ShowdownScreen() {
       <div className={styles.seperator} />
       <div className={`${styles.locationContainer} ${styles.flyInFromRight}`}>
         <div className={styles.topSection}>
-          <h1>{match.teams[1].name}</h1>
+          <hgroup>
+            <h4 className={styles.title}>{match.teams[1].name}</h4>
+            <p className={styles.description}>{match.teams[1].description}</p>
+          </hgroup>
           <div className={styles.restaurantAttributes}>
-            <h4>⭐️ {match.teams[1].rating}</h4>
-            <h4>💵 {match.teams[1].price}</h4>
-            <h4>
+            <p className={styles.attributes}>⭐️ {match.teams[1].rating}</p>
+            <p className={styles.attributes}>
               💰 ${match.teams[1]?.price_range?.startPrice?.units ?? "N/A"} - $
               {match.teams[1]?.price_range?.endPrice?.units ?? "N/A"}
-            </h4>
+            </p>
           </div>
-          <a href={match.teams[1].website_url} target="_blank" rel="noreferrer">
-            Website
-          </a>
         </div>
-        {renderCarousel("team2", match.teams[1])}
+        <div className={styles.carousel}>
+          {renderCarousel("team2", match.teams[1])}
+        </div>
         <div className={styles.bottomSection}>
           <button onClick={() => handleSelect(match.teams[1])}>Choose</button>
         </div>

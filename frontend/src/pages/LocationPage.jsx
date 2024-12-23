@@ -65,31 +65,26 @@ function LocationPage() {
   };
 
   return (
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        gap: 24,
-      }}
-      className={styles.container}
-    >
-      {!loading ? (
-        <>
-          <div className={styles.emojiSection}>🍔 🥊</div>
-          <h1>Bite Battle!</h1>
-          <button onClick={handleLocationClick}>Get current location</button>
-          <div></div>
-        </>
-      ) : (
-        <div>
-          <h2 style={{ color: "white" }}>Generating your bracket</h2>
-          <progress />
-        </div>
-      )}
-    </div>
+    <>
+      <div className={styles.container}>
+        {!loading ? (
+          <div className={styles.container}>
+            <div className={styles.emojiSection}>🍔 🥊</div>
+            <h1>Bite Battle!</h1>
+            <button onClick={handleLocationClick}>Get current location</button>
+            <div></div>
+          </div>
+        ) : (
+          <div>
+            <h2 style={{ color: "white" }}>Generating your bracket</h2>
+            <progress />
+          </div>
+        )}
+      </div>
+      <video className={styles.video} autoPlay loop muted>
+        <source src="burgerbrawl.mp4" type="video/mp4" />
+      </video>
+    </>
   );
 }
 

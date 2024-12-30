@@ -81,7 +81,7 @@ function LocationPage() {
           </div>
         )}
       </div>
-      <video className={styles.video} autoPlay loop muted>
+      <video className={styles.video} autoPlay loop muted playsInline>
         <source src="burgerbrawl.mp4" type="video/mp4" />
       </video>
     </>

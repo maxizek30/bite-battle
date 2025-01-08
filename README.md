@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - **Frontend**: Vite, React, PICO CSS
-- **Backend**: Express, Yelp Fusion API
+- **Backend**: Express, Google Places API
 
 ## Setup
 
